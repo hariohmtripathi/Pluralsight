@@ -1,0 +1,105 @@
+body{
+    background-color: #181818;
+}
+ #fal{
+         height:80px;
+         width:100%;
+         /* border:1px solid teal; */
+}
+.middel-text{
+    color:#e40084;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'PS Commons Bold';
+    font-weight: 900 ;
+}
+.big-heading{
+    color:white;
+    text-align: center;
+    font-size: 56px;
+    margin-left:270px;
+    margin-right:300px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+#Big-two-box{
+    height:360px;
+    width:68.5%;
+    /* border:1px solid teal; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-template-rows: 360px;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+#Big-two-box>div{
+            /* border:1px solid red; */
+            background-color: #222222;
+            width: 95%;
+        }
+#Big-two-box>div>img{
+            margin-top:50px;
+            margin-left:120px
+        }
+
+.see-where{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right : 50px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+.pick-btn{
+    background: linear-gradient( to right,crimson,tomato);
+    border:transparent;
+    height:50px;
+    width:240px;
+    margin-left:100px;
+    margin-top:25px;
+    color:white;
+    font-size:15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.pick-btn:hover{
+    background: linear-gradient( to right,tomato,crimson);
+}
+.learn{
+    color:white;
+     font-size:15px;
+     margin-left:120px;
+     margin-top: 30px;
+     cursor: pointer;
+}
+.learn:hover{
+    margin-left:115px;
+}
+.fa-angle-right{
+    font-size: 12px;
+    margin-left: 12px;
+    color: rgb(199, 28, 57);
+}
+.fa-angle-right:hover{
+    margin-left: 10px;
+}
+
+#pick-blue-btn{
+    background: linear-gradient( to right,rgb(41, 52, 202),rgb(90, 108, 190));
+    border:transparent;
+    height:50px;
+    width:240px;
+    margin-left:100px; 
+    margin-top:25px;
+    color:white;
+    font-size:15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+#pick-blue-btn:hover{
+    background: linear-gradient( to right,rgb(109, 113, 172),rgb(68, 96, 219));
+}
