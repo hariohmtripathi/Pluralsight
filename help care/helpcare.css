@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "PS Commons";
+    color: white;
+
+}
+
+body {
+    font-family: 'PS TT Commons Roman', Montserrat, Arial, sans-serif;
+    background-color: #222;
+}
+
+
+#navabr {
+    overflow: hidden;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#hepl-header {
+    background: #000;
+    background-image: url('https://dyzz9obi78pm5.cloudfront.net/app/image/id/5ab2e3be8e121c1255bda4fd/n/50088-18-supportsiterefresh-header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6em 1em;
+    margin-top: 60px;
+    /* height: 400px; */
+    background-color: #222;
+}
+
+#hepl-header>:nth-child(1) {
+    overflow: hidden;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+}
+
+.support {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    text-align: center;
+    background: #E8198D;
+    height: 60px;
+    padding: 5px 0;
+    margin: -0px -15px;
+    font-size: 15px;
+}
+
+.support>:nth-child(1) {
+    margin-left: 480px;
+}
+
+p {
+    line-height: 1.7;
+    font-family: 'PS TT Commons Roman', Montserrat, Arial, sans-serif;
+}
+
+.announcement {
+    font-style: italic;
+    align-items: center;
+
+}
+
+.circle {
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    color: #E8198D;
+    border-radius: 50%;
+
+}
+
+#hepl-header>:nth-child(2) {
+    display: grid;
+    gap: 30px 40px;
+    justify-content: center;
+    margin: auto;
+}
+
+#hepl-search,
+.example {
+    width: 500px;
+    height: 40px;
+    text-align: left;
+    align-items: center;
+}
+
+form.example input {
+    padding: 8px 14px 8px 35px;
+    width: 80%;
+}
+
+form.example button,
+input {
+    background-color: #55555566;
+    border: 1px solid transparent;
+    color: white;
+}
+
+form.example button {
+    padding: 9.5px;
+    margin-right: -4px;
+}
+
+/* boddyyyyyd */
+.home-page-mid img {
+    max-width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.home-page-mid {
+    margin-left: 0;
+    margin-right: 0;
+    background: #222;
+}
+
+.home-page-mid>div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-xs-6 {
+    margin-top: 50px;
+    padding-left: 5px;
+}
+
+.skills-link {
+    border-style: solid;
+    border-color: #6b6d6e;
+    background-color: #6b6d6e;
+    width: 400px;
+}
+
+.homepage-icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 50px 0px;
+    color: #fff;
+    margin: auto;
+    background-size: cover;
+}
+
+.triple-button {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.2;
+    padding: 50px 0px;
+}
+
+.popular-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.popular-articles>div>a {
+    display: grid;
+    align-items: center;
+    background-color: #6b6d6e;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Gotham Black", sans-serif;
+}
+
+.col-4>a {
+    text-decoration: none;
+    width: 254px;
+    height: 166;
+    padding: 50px 5px;
+
+}
+
+/*------------- heplcare footer  */
+.hepl-footer {
+    height: 100px;
+    width: auto;
+    padding: 40px 0px 0px;
+    font-size: 12px;
+}
+.body-footer-top{
+   height: 42px;
+   width: auto;
+   
+}
+.rows{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+.footer-links{
+    padding: 0px 15px 0px 100px;
+}
+.copy-R{
+    display: grid;
+    font-size: 12px;
+    justify-content: end;
+    padding: 0px 100px 0px 15px;
+    font-weight: lighter;
+    color: #b8b8bb;
+
+}
+.belowfooter {
+    margin-top: 30px;
+    height: 10px;
+    background-color: #f15b2a;
+    background: -webkit-linear-gradient(left, #f15b2a, #e80a89);
+    background: -o-linear-gradient(right, #f15b2a, #e80a89);
+    background: linear-gradient(to right, #f15b2a, #e80a89);
+}
