@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+        </style>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+           
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color:#181818;
+        }
+
+        /* navbar */
+        #navbar{
+            background-color: rgb(51, 48, 48);
+            height: 80px;
+        }
+
+
+
+
+
+        /* skills tab */
+        #skills{
+            margin: 130px auto 130px auto ;
+            background-color: #181818;
+            color: white;
+        }
+        #skills>div{
+            margin: auto;
+            width: 89%;
+            display: grid;
+            grid-template-columns: 55% 40%;
+            gap: 20px;
+            justify-content: space-evenly;
+        }
+
+        /* skills text */
+        #skills1F{
+            display: flex;
+            width: 80%;
+        }
+        #skills1F>div:first-child>img{
+            width: 170px;
+            box-sizing: border-box;
+        }
+        #skills1F>div:last-child{
+            font-size: 16px;
+            font-weight: bolder;
+            margin-left: 40px;
+        }
+        #skills1S{
+            margin-top: 50px;
+        }
+        #skills1S>h1{
+            font-size: 55px;
+            font-weight: bolder;
+            width: 94%;
+        }
+        #skills1S>p{
+            line-height: 60px;
+            font-size: 17px;
+            font-weight: 120;
+        }
+
+        #skillsBtn{
+            display: flex;
+        }
+
+        #skillsBtn>button{
+            display: block;
+            font-size: 16px;
+            font-weight: bolder;
+            margin-top: 20px;
+            color: white;
+        }
+
+        #skillsBtn>button:first-child{
+            margin-right: 20px;
+            padding: 17px 35px 17px 35px;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+        }
+        #skillsBtn>button:last-child{
+            border: 1px solid white;
+            padding: 17px 40px 17px 40px;
+            background-color: #181818;
+        }
+
+        /* skills image */
+        #skills2{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 45px 0px 0px 0px;
+            
+        }
+        #skills2 img{
+            width: 475px;
+            box-sizing: border-box;
+        }
+
+
+        /* learn through practice */
+        #learn{
+            padding: 100px 0px 48px 0px;
+            background-color: black;
+            color: ghostwhite
+           
+        }
+        #learn>div{
+            margin: auto;
+            display: grid;
+            width: 92%;
+            grid-template-columns: 37% 52%;
+            justify-content: center;
+            gap: 25px 50px;
+        }
+
+        /* learn image */
+        #learnImage img{
+            width: 440px;
+            height: 396px;
+            box-sizing: border-box;
+        }
+
+        /* learn text */
+        #learnText>div{
+            margin-top: 10px;
+        }
+        #learnText>div>h2{
+            font-size: 32px;
+        }
+        #learnText>div>p{
+            font-size: 17px;
+            margin-top: 16px;
+            text-align: left;
+            line-height: 25px;
+            color: #eeeeee;
+        }
+
+
+        /* labs */
+        #labs{
+            background-color: black;
+        }
+        #labs>div{
+            margin: auto;
+            width: 87%;
+            background-color:  #222222;
+            color: #eeeeee;
+            padding-top: 126px;
+            display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 60px;
+            justify-content: center;
+            border-radius: 20px 20px 0px 0px;
+        }
+        #labs>div>div:first-child>img{
+            width: 389px;
+        }
+        #labs>div>div:last-child{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        #labsHeading{
+            width: 30%;
+            display: flex;
+        }
+        #labsHeading img{
+            box-sizing: border-box;
+            margin-right: 15px;
+            width: 35px;
+        }
+        #labsHeading h2{
+            font-size: 20px;
+
+        }
+        #labsBody{
+            margin-top: 10px;
+        }
+        #labsBody>p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #labsAvailable{
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 20px;
+        }
+        #labsExplore{
+            margin-top: 20px;
+            font-size: 16px;
+            
+        }
+        #labsExplore span{
+            color: rgb(196, 0, 196);
+            margin-left: 5px;
+        }
+
+        /* sandboxes */
+        #sandboxes{
+            background-color: black;
+        }
+        #sandboxes>div{
+            width: 87%;
+            margin: auto;
+            background-color: #222222;
+            padding-top: 126px;
+            display: grid;
+            grid-template-columns: 40% 42%;
+            gap: 60px;
+            justify-content: center;
+            color: #eeeeee;
+            
+        }
+        #sandboxes>div>div:first-child{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        #sandHeader{
+            width: 30%;
+            display: flex;
+        }
+        #sandHeader img{
+           box-sizing: border-box;
+            margin-right: 15px;
+            width: 35px;
+        }
+        #sandHeader h2{
+            font-size: 20px;
+        }
+        #sandBody{
+            margin-top: 10px;
+        }
+        #sandBody>p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #sandAvailable{
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 20px;
+
+        }
+        #sandsImage>img{
+            width: 389px;
+        }
+
+
+        /* projects */
+        #projects{
+            background-color: black;
+        }
+        #projects>div{
+            margin: auto;
+            width: 87%;
+            background-color:  #222222;
+            color: #eeeeee;
+            padding-top: 126px;
+            display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 55px;
+            justify-content: center;
+        }
+        #projects>div>div:first-child>img{
+            width: 389px;
+        }
+        #projects>div>div:last-child{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        #projectsHeading{
+            width: 30%;
+            display: flex;
+        }
+        #projectsHeading img{
+            box-sizing: border-box;
+            margin-right: 15px;
+            width: 35px;
+        }
+        #projectHeading h2{
+            font-size: 20px;
+        }
+        #projectsBody{
+            margin-top: 10px;
+        }
+        #projectsBody>p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #projectsIncluded{
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 20px;
+        }
+        #projectsExplore{
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        #projectsExplore span{
+            color: rgb(196, 0, 196);
+            margin-left: 5px;
+        }
+
+
+        /* interactive course */
+        #interact{
+            background-color: black;
+        }
+        #interact>div{
+            width: 87%;
+            margin: auto;
+            background-color: #222222;
+            padding: 126px 0px 178px 0px;
+            display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 60px;
+            justify-content: center;
+            color: #eeeeee;
+            border-radius: 0px 0px 20px 20px;
+            
+        }
+        #interact>div>div:first-child{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        #interactHeader{
+            width: 60%;
+            display: flex;
+        }
+        #interactHeader img{
+            box-sizing: border-box;
+            margin-right: 15px;
+            width: 35px;
+        }
+        #interactHeader h2{
+            font-size: 20px;
+        }
+        #interactBody{
+            margin-top: 10px;
+        }
+        #interactBody>p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #interactIncluded{
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 20px;
+
+        }
+        #interactExplore{
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        #interactExplore span{
+            color: rgb(196, 0, 196);
+            margin-left: 5px;
+        }
+        #interactImage>img{
+            width: 389px;
+        }
+
+
+        /* demo video */
+        #demo{
+            border: 1px solid transparent;
+            color: #eeeeee;
+            background-color: black;
+        }
+        #demo>div{
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: 37% 40%;
+            justify-content: center;
+            gap: 30px;
+        }
+        #demo>div>div:first-child{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        #demoHeader>h2{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        #demoBody{
+            margin-top: 20px;
+        }
+        #demoBody>p{
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+        #demoBtn{
+            width: 50%;
+            margin-top: 20px;  
+        }
+
+        #demoBtn>button{
+            font-size: 15px;
+            font-weight: bolder;
+            border: 1px solid white;
+            padding: 15px 20px 15px 20px;
+            background-color: black;
+            color: white;
+
+        }
+        #demoImage>img{
+            width: 360px;
+            cursor: pointer;
+        }
+
+
+        /* equipped */
+        #equipped{
+            border: 1px solid transparent;
+            background-color: black;
+            color: #eeeeee;
+            
+        }
+        #equipped>div{
+            width: 90%;
+            margin: 144px auto;
+            display: grid;
+            grid-template-columns: 60% 25%;
+            gap: 120px;
+            justify-content: center;
+        }
+        #equipBody{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        #equipBtn>button{
+            display: block;
+            border: 1px solid transparent;
+            font-size: 15px;
+            font-weight: bolder;
+            padding: 15px 20px 15px 20px;
+            color: white;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+        }
+
+
+
+        /* demo video pop up */
+        #demoPop{
+            width: 100%;
+            background-color: rgb(161, 161, 161, 0.1);
+            position: absolute;
+            bottom: 10;
+            z-index: 1;
+            height: 600px;
+            visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        #demoPop iframe{
+            width: 809px;
+            height: 500px; 
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- navbar -->
+   <div id="navbar"></div>
+
+
+
+   <!-- skills tab -->
+   <div id="skills">
+
+        <div>
+
+    <!-- skills text -->
+    <div id="skills1">
+
+        <div id="skills1F">
+            <div>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo_ps-skills.png" alt="">
+            </div>
+            <div>
+                <p>HANDS-ON LEARNING</p>
+            </div>
+        </div>
+
+
+        <div id="skills1S">
+            <h1>Turn knowledge into skills with Pluralsight's hands-on learning</h1>
+            <p>The best way to build, practice and apply new tech skills</p>
+        </div>
+
+        <div id="skillsBtn">
+            <button>START A FREE 10 DAY TRIAL</button>
+            <button>START A TEAM TRIAL</button>
+        </div>
+
+
+    </div>
+
+    <!-- skills image -->
+    <div id="skills2">
+        <div>
+            <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/image1.png" alt="">
+        </div>
+    </div>
+
+    </div>
+
+   </div>
+
+
+   <!-- learn through practice -->
+   <div id="learn">
+         <div>
+
+         
+    <!-- learn image -->
+        <div id="learnImage">
+            <div>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/image1-learn.png" alt="">
+            </div>
+        </div>
+
+        <!-- learn text -->
+        <div id="learnText">
+            <div>
+                <h2>Learn through practice and application</h2>
+
+                <p>Every tech leader should be able to feel confident in their team's ability to execute successful solutions for critical initiatives now and in the future—and it's hard to trust in your team's future skills without having made an ongoing commitment to skill development.</p>
+
+                <p>Pluralsight Skills offers unique, hands-on learning experiences that allow learns to build their knowledge and practice applying it before bringing it into a professional setting.</p>
+
+                <p>When you equip your teams for continuous learning with Pluralsight, they'll be able to build stronger skills through these four hands-on content modalities:</p>
+
+            </div>
+        </div>
+
+
+    </div>
+   
+
+    </div>
+
+
+
+    <!-- labs -->
+    <div id="labs">
+        <div>
+            <div>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/img2-labs.png" alt="">
+            </div>
+
+            <div>
+                <div id="labsHeading">
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/labs-icon.png" alt="">
+                    </div>
+                    <h2>Labs</h2>
+                    
+                </div>
+                <div id="labsBody">
+                    <p>Provide learners with a safe, provisioned environment where they can develop and test skills without the risk. By completing tasks similar to common ones tech teams tackle every day, your team members can get comfortable applying their skills in real-world scenarios and get feedback that helps them improve.</p>
+                </div>
+                <div id="labsAvailable">
+                    *Available for Enterprise and Professional plans. Terms and conditions apply.
+                </div>
+                <div id="labsExplore">
+                    <h4>Explore labs <span>&gt;</span></h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- sandboxes -->
+    <div id="sandboxes">
+        <div>
+            <div>
+                <div id="sandHeader">
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/sandboxes-icon.png" alt="">
+                    </div>
+                    <h2>Sandboxes</h2>
+                </div>
+                <div id="sandBody">
+                    <p>Provide learners with safe, provisioned environments where they can deepen their skills through more advanced, independent practice. With no limitations to what they can explore, your team can practice completing tasks just like the ones they'll be tackling on the job.</p>
+                </div>
+                <div id="sandAvailable">
+                    *Available for Enterprise and Professional plans. Terms and conditions apply.
+                </div>
+            </div>
+
+            <div>
+                <div id="sandsImage">
+                    <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/img3-sandboxes.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+    <!-- projects -->
+    <div id="projects">
+        <div>
+            <div>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/img4-projects.png" alt="">
+            </div>
+
+            <div>
+                <div id="projectsHeading">
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/projects-icon.png" alt="">
+                    </div>
+                    <h2>Projects</h2>
+                    
+                </div>
+                <div id="projectsBody">
+                    <p>Learners can experience real-world scenarios and get valuable guidance to help them apply new skills in their local environment. Projects include automated validation and customized error messages of work done in their local environment, so they can easily identify and correct mistakes before they matter.</p>
+                </div>
+                <div id="projectsIncluded">
+                    *Included in our Premium, Professional and Enterprise plans.
+                </div>
+                <div id="projectsExplore">
+                    <h4>Explore projects<span>&gt;</span></h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--interactive course  -->
+    <div id="interact">
+        <div>
+            <div>
+                <div id="interactHeader">
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/interactive-icon.png" alt="">
+                    </div>
+                    <h2>Interactive courses</h2>
+                </div>
+                <div id="interactBody">
+                    <p>Empower learners to take skill development into their own hands with experiences that include hands-on coding challenges and guided feedback. Learners start by watching a video to learn a concept, then test their knowledge through a series of challenges in a browser environment.</p>
+                </div>
+                <div id="interactIncluded">
+                    *Included in our Premium, Professional and Enterprise plans.
+                </div>
+                <div id="interactExplore">
+                    <h4>Explore interactive courses<span>&gt;</span></h4>
+                </div>
+            </div>
+
+            <div>
+                <div id="interactImage">
+                    <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/img5-courses.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+     <!-- demo video pop up -->
+     <div id="demoPop">
+        <div>
+            <iframe src="https://www.youtube.com/embed/wizd3T1BRhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <!-- demo video -->
+    <div id="demo">
+        <div>
+            <div>
+                <div id="demoHeader">
+                    <h2>Learn, practice and apply</h2>
+                </div>
+                <div id="demoBody">
+                    <p>Dive into our new hands-on learning experiences to help get you prepped and certified, so you can be better equipped on your quest to success.</p>
+                </div>
+                <div id="demoBtn">
+                    <button>WATCH A DEMO</button>
+                </div>
+            </div>
+
+            <div>
+                <div id="demoImage">
+                    <img src="https://www.pluralsight.com/content/dam/pluralsight2/landing-pages/product/hands-on-learning/demo-video.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- equipped -->
+    <div id="equipped">
+        <div>
+            <div id="equipBody">
+                <p>Try hands-on learning today to help your team members become stronger in their roles and better equipped for the future.
+                </p>
+            </div>
+            <div id="equipBtn">
+                <button>START A FREE 10-DAY TRIAL</button>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+
+
+
+ 
+
+</body>
+</html>
+
+<script>
+    let demoImage= document.getElementById("demoImage");
+    demoImage.addEventListener("click", function(){
+        let demoPop= document.getElementById("demoPop");
+        demoPop.style.visibility="none";
+    })
+</script>
