@@ -1,3 +1,4 @@
+<!-- this page is created by Falgun manoj bokde -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +15,17 @@
         <div id="bag">
             <img id="png" src="https://app.pluralsight.com/id/img/login-logo.png" alt="">
             <!-- login form start from here -->
-            <form class="form">
+
+            <form id="form">
+
                 <h4 class="email">Email or Username</h4>
-                <input class="none1" type="text">
+                <input class="none1" id="Email" type="text">
+
                 <h4 class="email2">Password</h4>
-                <input class="none2" type="password">
+                <input class="none2" id="Password" type="password">
+
                 <h6>
-                    <button class="signIn" onclick="button()"><a href="#"> Sign In</a></button>
+                    <input class="signIn" id="submit" type="submit"  value="submit" />
                 </h6>
             </form>
 
@@ -32,7 +37,7 @@
                 <hr id="nope1">
                 <button id="CreateAcc" ><a href="#">Create an account</a></button>
                 <h6 class="lastpara">Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved. <br>
-                    <a href="#" id="anchor">Terms of Use</a> | <a href="#" id="anchor">Privacy Policy</a> </h6> <br>
+                    Terms of Use | Privacy Policy</h6>
             </div>
         </div>
 
@@ -51,8 +56,33 @@
 </body>
 </html>
 <script>
-    function button(){
-        alert("User is Not Found")
-        alert("please Create an Account")
-    }
+    document.querySelector("#form").addEventListener("submit",myfunction)
+    var userdata=JSON.parse(localStorage.getItem("userdata"));
+    
+    function myfunction(){
+        event.preventDefault()
+      var  data={
+        
+         Email:form.Email.value,
+         Password:form.Password.value,
+         
+        }; 
+    
+        if (userdata==null){
+            alert("Please Create Account")
+        }
+        if ((userdata.PersonEmail==data.Email) &&  (userdata.PersonPassword==data.Password))
+        {
+
+        setTimeout(function(){
+          alert("Sign in successful");
+          window.location.href="#"
+          localStorage.setItem("singin",JSON.stringify(userdata));
+        },3000)  
+        }
+        else{
+            alert("User does not exist")
+        }
+      
+        }  
 </script>
