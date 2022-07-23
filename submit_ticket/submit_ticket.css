@@ -123,8 +123,25 @@ div>a>img {
     width: 100%;
 }
 
-
-
+/* media queries ---- */
+@media all and (min-width:651px) and (max-width:1024px) {
+    .sub-sec {
+        align-items: center;
+        width: 600px;
+        height: 77px;
+    }
+    div>a>img {
+        height: 42px;
+        margin: 5px 10px 0px;
+        padding-right: 45px;
+    }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        
+        color: #fff;
+    }
+}
 /* contact form and ticket sectionn  */
 .contact {
     margin-top: 80px;

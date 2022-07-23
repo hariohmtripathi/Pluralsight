@@ -52,3 +52,9 @@ form>p{
     font-weight: 400;
     font-size: 15px;
 }
+
+/* thank-you ----- */
+.form_div{
+    display: flex;
+    width: 400px;
+}
