@@ -1,0 +1,94 @@
+<!-- this page made by Falgun Manoj Bokde -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Pluralsight</title>
+    <link rel="stylesheet" href="./createAccount.css">
+    <link rel="shortcut icon" href="https://user-images.githubusercontent.com/4683221/34775011-89bb46c2-f609-11e7-8bd1-d7a70d2277fd.jpg">
+</head>
+<body>
+
+    <div id="big">
+        <div id="bag">
+            <img id="png" src="https://app.pluralsight.com/id/img/login-logo.png" alt="">
+            <!-- login form start from here -->
+            <form id="form">
+                <h4 class="email">Enter Name</h4>
+                <input class="none1" type="text" id="Name">
+
+                <h4 class="email2">Email or Username</h4>
+                <input class="none1" type="text" id="Email">
+
+                <h4 class="email2">Mobile Number</h4>
+                <input class="none2" type="number" id="Mobile">
+
+                <h4 class="email2">Password</h4>
+                <input class="none2" type="password" id="Password">
+
+                <h6>
+                    <input class="signIn" id="submit" type="submit"  value="Submit" />
+                </h6>
+            </form>
+
+            <!-- lower part of signup from here -->
+
+            <div id="linBtn">
+                <a class="forgot" href="#">Forgot Password?</a><br><br>
+                <a class=" forgot2" href="#">Sign in with company or school</a>
+                <hr id="nope1">
+                <button id="CreateAcc" ><a href="./signIn.html">SignIn</a></button>
+                <h6 class="lastpara">Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved. <br>
+                    <a href="#" id="anchor">Terms of Use</a> | <a href="#" id="anchor">Privacy Policy</a> </h6>
+            </div>
+        </div>
+
+
+        <!-- Right side section start from here -->
+
+        <div id="img_bag">
+            <img src="https://www.pluralsight.com/content/dam/pluralsight2/login/login-h1.png" alt="">
+            <div><button id="tff"><a href="#"> Try for free</a></button></div>
+            <div class="bottopng">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo-build-better.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script>
+
+document.querySelector("#form").addEventListener("submit",formsubmit)
+
+
+function formsubmit(){
+    event.preventDefault()
+
+    fromObj={
+        PersonName:form.Name.value,
+        PersonEmail:form.Email.value,
+        PersonMobile:form.Mobile.value,
+        PersonPassword:form.Password.value,
+        
+    };
+
+    if (fromObj.PersonPassword == fromObj.PersonPassword)
+    {
+        setTimeout(function(){
+        alert("Account has been created successfully")
+        window.location.href="./signIn.html";
+    },1000)
+       
+    }
+    else {
+        alert ("Password Not Match");
+    }
+  
+  localStorage.setItem("userdata",JSON.stringify(fromObj));
+ }
+ 
+   
+</script>
