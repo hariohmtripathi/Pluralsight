@@ -1,0 +1,551 @@
+/* This css is made by falgun manoj bokde */
+.boxx {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    /* gap: 5px; */
+    margin: auto;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 30px;
+}
+.inside {
+    background-color: rgba(39, 37, 37, 0.986);
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.itw{
+   
+   background-color: rgba(29, 28, 28, 0.986);
+}
+
+
+.inside>h1 {
+    font-size: 40px;
+}
+
+.inside>h2 {
+    font-size: 40px;
+}
+
+.inside>h3 {
+    font-size: 15px;
+    margin-top: -25px;
+    font-weight: 400;   
+}
+.inside>h4{
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.inside>button {
+    background: linear-gradient(to right, tomato, deeppink);
+    color: white;
+    height: 60px;
+    width: 250px;
+    font-weight: 900;
+    margin-top: 20px;
+    border: 0px;
+}
+.jbl{
+    margin-top: 40px;
+    font-size: 15px;
+    gap: 5px;
+    color: grey;
+}
+.anchorfree{
+    text-decoration: none;
+    color: deeppink;
+    font-size: 18px;
+    font-weight: 600;
+}
+.anchorfree:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+.inside>button:hover {
+    background: linear-gradient(to right, deeppink, tomato);
+    color: white;
+    height: 60px;
+    width: 250px;
+    font-weight: 900;
+    margin-top: 20px;
+    border: 0px;
+}
+.anchorbtn{
+    text-decoration: none;
+    color: white;
+}
+
+
+#first {
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+
+#first>h1 {
+    font-size: 55px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+body {
+    background-color: #181818;
+
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.inside>h6 {
+    background-color: orange;
+    font-size: 13px;
+    color: black;
+    margin-top: -1px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+#skill {
+    height: 30px;
+    width: 150px;
+    margin-bottom: -25px;
+}
+
+
+.compare {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+    margin: auto;
+
+}
+
+.comparep {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    gap: 20px
+    ;
+}
+.comparep p{
+    line-height: 25px;
+}
+
+.compare>h1 {
+    text-align: center;
+}
+.h45{
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.h45>p{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+#gift {
+    background-image: url('https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-skills/en-pricing-skills-standard-and-starter/jcr:content/root/generic_block/parsys/generic_block_copy/image-res.img.33f64d91-64f5-47be-92b9-78378c10db94.jpg');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black ;
+}
+
+#giftcontent {
+    text-align: center;
+    color: white;
+}
+
+
+#giftcontent>h1 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 45px;    
+}
+#giftcontent>p{
+    font-size: 20px;
+    color: grey;
+    margin-top: -5px;
+}
+
+#giftcontent>button {
+    background: linear-gradient(to right, tomato, deeppink);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-weight: 800;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#giftcontent>button:hover{
+    background: linear-gradient(to right, deeppink, tomato);
+}
+
+
+#saying{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#saying>p{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 80px;
+    text-align: center;
+}
+#saying>h6{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.blushing{
+    text-decoration: none;
+    color: deeppink;
+}
+.blushing:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+#saying>h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+}
+#spon{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.e1>img {
+    height: 30px;
+    width: 100px;
+}
+
+
+#gridd{
+    border: 1px solid deeppink;
+    grid-template-columns: repeat(2,1fr);
+    height: auto;
+    
+
+}
+
+
+
+
+.accordion {
+    background-color: #181818;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #181818;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #181818;
+    overflow: hidden;
+    color: white;
+  }
+
+
+
+
+  .mySlides {display:none;
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+}
+.l{
+    /* border: 1px solid red; */
+    height: auto;;
+    display: flex;
+}
+.l>div{
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 100%;
+    margin-left: 35px;
+}
+
+#imgggg{
+    width: 100%;
+    height: 100%;
+}
+#cont{
+    width: 80%;
+    margin: auto;
+}
+
+#faq{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #181818;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#faqp1 p{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: deeppink;  
+    font-family: 'Noto Sans', sans-serif;      
+}
+#faqp1 > h1{
+    padding-left: 10px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+}
+
+.accordion{
+    font-size: 20px;
+    padding: 10px;      
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+#faq11{
+    width: 100%;
+    /* padding-right: 100px */
+}
+.panel{
+font-size: 17px;
+font-family: 'PS Commons';
+}
+.here1{
+    text-decoration: none;
+    color: deeppink;
+}
+.here1:hover{
+    text-decoration: underline;
+}
+.btn123{
+    display: block;
+}
+.buttonleft{
+    display: block;
+    position: absolute;
+    margin-top: -120px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin-left:-30px;
+}
+.buttonright{
+    display: block;    position: absolute;
+    margin-top: -120px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin-left:1100px; 
+   
+}
+
+
+
+/* switch start frome here */
+
+#swit{
+    width: 1000px;
+    margin-left:35%;
+    margin-top: -120px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: 80px;
+
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; 
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(34, 33, 33);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  left: 50%;
+  background-color: #2d2d2d;
+  -webkit-transition: .4s;
+  transition: .4s; 
+}
+
+input:checked+.slider {
+  background-color: black;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(30%);
+  -ms-transform: translateX(50%);
+  transform: translateX(-100%);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50px;
+}
+
+#TEAM {
+  display: none;
+  margin-top: 40px;
+}
+.ind{
+    /* border: 1px solid red; */
+    height: auto;
+   
+}
+.tea{
+
+    height: auto;
+}
+.switch_btn_content{
+    color: white;
+    z-index: 100;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 18px ;
+    font-weight: 700;
+    
+}
+.switch_btn_content>span:nth-child(1){
+margin-left: 40px;
+color: grey ;
+}
+.switch_btn_content>span:nth-child(1):hover{
+    color: white ;
+}
+.switch_btn_content>span:nth-child(2){
+    margin-left: 25%;
+    color: grey ;
+}
+.switch_btn_content>span:nth-child(2):hover{
+    margin-left: 25%;
+    color: white ;
+}
+
+
+#teambox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+    background-color: #1B1B1B;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+#team11{
+    background: linear-gradient(180deg,#181818 0,#222 100%);
+}
+#team11 h1{
+    font-size: 36px;
+    font-family: 'PS Commons Bold';
+    font-weight: 800;
+}
+sup{
+    font-size: 19px;
+    font-weight: 900;
+}
+#falgun {
+    font-size: 52px;
+    font-weight: 900;
+    margin-top: -10px;
+}
+#team11 h5{
+    font-size: 17px;
+    margin-top: -40px;
+    font-weight: 300;
+}
+#team11 h4{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px ;
+}
+#teambtn{
+background: linear-gradient(to right, tomato, deeppink);
+color: white;
+height: 50px;
+width: 170px;
+font-weight: 900;
+margin-top: 20px;
+border: 0px;
+cursor: pointer;
+}
+#teambtn:hover{
+    background: linear-gradient(to right, deeppink, tomato);
+}
+#paraa{
+    font-size: 17px;
+    margin-top: 30px;
+    color: grey;
+    margin-bottom: 35px;
+}
+#TEAMtrial{
+    text-decoration: none;
+    color: deeppink;
+    font-size: 19px;
+    font-weight: 600;
+}
+#TEAMtrial:hover{
+    text-decoration: underline;
+}
+#dream11{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
