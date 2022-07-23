@@ -100,6 +100,7 @@
             background-color: #222222;
             border-radius: 5px;
             padding: 80px 50px 80px 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         #empowerContent{
             margin: auto;
@@ -292,6 +293,7 @@
             border: 1px solid yellowGreen;
             background-color: #373637;
             border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         }
         .featuresCard>div:first-child{
@@ -367,8 +369,8 @@
         #roi{
             border: 1px solid red;
             background-image: linear-gradient(to right, rgb(226, 15, 96), rgb(240, 51, 83), rgb(230, 85, 18));
-            /* margin-top: -100px; */
-            padding:400px 0px 70px 0px
+            margin-top: -100px;
+            padding:400px 0px 70px 0px;
 
         }
         #roi>div{
@@ -436,6 +438,213 @@
         }
         
 
+
+        /* vmware */
+        #vmware{
+            border: 1px solid red;
+            padding: 100px 0px;
+        }
+        #vmware>div{
+            width: 70%;
+            margin: auto;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(2,43%);
+            gap: 90px;
+        }
+        #vmware>div>div:first-child{
+            border: 1px solid violet;
+            line-height: 30px;
+            font-size: 23px;
+        }
+        #vmware>div>div:first-child>p{
+            margin-top: 15px;
+        }
+        
+        #vmware>div>div:last-child{
+            border: 1px solid violet;
+            align-items: flex-end;
+            padding-top: 50px;
+
+        }
+        #vmware>div>div:last-child>div>img{
+            width: 140px;
+        }
+        #vmware>div>div:last-child>p{
+            margin-top: 10px;
+        }
+
+
+
+        #vmwareWatch{
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            font-weight: bolder;
+        }
+        #vmwareWatch>span{
+            margin-left: 5px;
+            color: #d40c98;
+        }
+
+
+        /* plans and pricing */
+
+        #plans{
+            border: 1px solid red;
+            padding-top: 100px;
+            background-color: #1c1b1b;
+            color: white;
+        }
+        #plansTop{
+            text-align: center;
+        }
+        #plansTop>p{
+            color: #d40c98;
+            font-weight: bolder;
+        }
+        #plansTop>h1{
+            font-size: 40px;
+            margin-top: 20px;
+        }
+        #plansBody{
+            display: grid;
+            grid-template-columns: repeat(3,27%);
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .plansCard{
+            text-align: center;
+            padding: 50px 0px;
+            background-color: #232323;
+            color: white;
+            border-radius: 2px;
+        }
+        .plansCard>div{
+            display: flex;
+            padding: 2px;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .plansCard>div>p:first-child{
+            font-size: 18px;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+
+        .plansCard>div>p:last-child{
+            font-size: 50px;
+            font-weight: bolder;
+            margin: 0px;
+        }
+        .plansCard>p:nth-child(3){
+            font-size: 17px;
+            color: #c2c2c2;
+            margin-top: 10px;
+        }
+        .plansCard>p:nth-child(4){
+            margin: auto;
+            width: 70%;
+            font-size: 17px;
+            margin-top: 40px;
+            color: #f4f4f4;
+        }
+        #plansCardBtn{
+            border: 1px solid green;
+            margin-top: 40px;
+
+        }
+        #plansCardBtn>button{
+            font-size: 15px;
+            font-weight: bolder;
+            color: white;
+            padding:15px 35px;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+
+        }
+        .plansCard>p:last-child{
+            margin-top: 40px;
+            color: #7c7d7d;
+        }
+        .plansCard>p:last-child>span{
+            color: #d40c98;
+            font-weight: bolder;
+        }
+        #plansCard1, #plansCard3{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;        }
+        #plansCard2{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        /* table */
+        #table{
+            border: 1px solid red;
+            padding-top: 70px;
+            background-color: #1c1b1b;
+        }
+        #table>div{
+            border: 1px solid green;
+        }
+        #table>div>p{
+            color: #888888;
+            text-align: center;
+            font-size: 17px;
+        }
+        #tableBody{
+            border: 1px solid yellowgreen;
+            color: white;
+        }
+
+
+
+
+        /* power the people */
+        #people{
+            border: 1px solid blue;
+            background-color: #1c1b1b;
+            padding: 120px 0px;
+        }
+        #people>div{
+            border: 1px solid yellow;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: center;
+        }
+        .peopleCard{
+            padding: 0px 200px;
+        }
+        .peopleCard>h1{
+            font-size: 27px;
+        }
+        .peopleCard>div{
+            border: 1px solid green;
+            margin-top: 40px;
+        }
+        .peopleCard:first-child{
+            border-right: 1px solid gray;
+        }
+        .peopleCard>div>button{
+            padding: 15px 30px;
+            font-size: 15px;
+            font-weight: bolder;
+            color: white;
+            border-radius: 2px;
+
+        }
+        #peopleCardBtn1>button{
+            border: 1px solid transparent;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+            
+        }
+        #peopleCardBtn2>button{
+            border: 1px solid white;
+            background-color: black;
+        }
+        
 
 
 
@@ -776,6 +985,226 @@
             </div>
         </div>
     </div>
+
+
+    <!-- vmware -->
+    <div id="vmware">
+        <div>
+            <div>
+                <div>
+                    <img src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block_740207/parsys/columns/column-parsys-1/animation_wrapper/parsys/image/image-res.img.068d723d-b02e-4c8f-aa42-f00dc6c400ea.png" alt="">
+                </div>
+                <p>...self-service learning" -the ability to develop employee skills anytime, and from anywhere. It's not hard to see why.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block_740207/parsys/columns/column-parsys-2/animation_wrapper/parsys/image_copy/image-res.img.186b7c4e-31dc-4667-9ce5-51dfd6502693.png" alt="">
+                </div>
+                <p>Tamera Scholz - Sr. Director of Technical Education</p>
+                <div id="vmwareWatch">
+                    <p>Watch the full story</p>
+                    <span>></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- plans and pricing -->
+    <div id="plans">
+        <div>
+            <div id="plansTop">
+                <p>PLANS & PRICING</p>
+                <h1>Build skills that deliver results</h1>
+            </div>
+            <div id="plansBody">
+                <div class="plansCard" id="plansCard1">
+                    <h1>Starter</h1>
+                    <div>
+                        <p>US$</p>
+                        <p>399</p>
+                    </div>
+                    <p>per user / year</p>
+                    <p>Upskill your team with our core library.</p>
+                    <div id="plansCardBtn">
+                        <button>GET STARTED</button>
+                    </div>
+                </div>
+                <div class="plansCard" id="plansCard2">
+                    <h1>Starter</h1>
+                    <div>
+                        <p>US$</p>
+                        <p>399</p>
+                    </div>
+                    <p>per user / year</p>
+                    <p>Upskill your team with our core library.</p>
+                    <div id="plansCardBtn">
+                        <button>GET STARTED</button>
+                    </div>
+                    <p>or start a <span>TEAM trial</span> </p>
+
+                </div>
+                <div class="plansCard" id="plansCard3">
+                    <h1>Starter</h1>
+                    <div>
+                        <p>US$</p>
+                        <p>399</p>
+                    </div>
+                    <p>per user / year</p>
+                    <p>Upskill your team with our core library.</p>
+                    <div id="plansCardBtn">
+                        <button>GET STARTED</button>
+                    </div>
+                    <p>or start a <span>pilot</span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- table -->
+    <div id="table">
+        <div>
+            <p>*All per-user products require an annual contract.</p>
+
+            <div id="tableBody">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Plan</th>
+                            <th>Starter</th>
+                            <th>Professional</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Free trial duration</td>
+                            <td>n/a</td>
+                            <td>For 14 days</td>
+                            <td>For 14 days</td>
+                        </tr>
+                        <tr>
+                            <td>Library</td>
+                            <td>Core</td>
+                            <td>Expanded</td>
+                            <td>Expanded</td>
+                        </tr>
+                        <tr>
+                            <td>Skill & Role IQs</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                        </tr>
+                        <tr>
+                            <td>Certification practice exams</td>
+                            <td>&nbsp;</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                        </tr>
+                        <tr>
+                            <td>Interactive courses & Projects</td>
+                            <td>&nbsp;</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                        </tr>
+                        <tr>
+                            <td>Labs & Sandboxes</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                        </tr>
+                        <tr>
+                            <td>Trend & Usage analytics</td>
+                            <td>&nbsp;</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                        </tr>
+                        <tr>
+                            <td>API Access</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                            <td>&check;</td>
+                        </tr>
+                        <tr>
+                            <td>Skills analytics</td>
+                            <td>&nbsp;</td>
+                            <td>Basic</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Roles analytics</td>
+                            <td>&nbsp;</td>
+                            <td>Basic</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Single sign-on</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                        </tr>
+                        <tr>
+                            <td>Onboarding</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                        </tr>
+                        <tr>
+                            <td>Skills strategy plan</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                            <td>&phone;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><button>Buy Now</button></td>
+                            <td><button>Buy Now</button></td>
+                            <td><button>CONTACT SALES</button></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>or try for free</td>
+                            <td>or try for free</td>
+                        </tr>
+                    </tbody>
+                    
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQ -->
+    <div id="faq"></div>
+
+
+    <!-- power the people -->
+    <div id="people">
+        <div>
+            <div class="peopleCard">
+                <h1>Power the people who
+                    power your product</h1>
+                    <div id="peopleCardBtn1">
+                        <button>TRY FOR FREE</button>
+                    </div>
+
+            </div>
+            <div class="peopleCard">
+                <h1>Are you an individual
+                    looking for Skills?</h1>
+                    <div id="peopleCardBtn2">
+                        <button>SKILLS FOR INDIVIDUAL</button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
 </body>
