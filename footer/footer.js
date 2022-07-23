@@ -1,5 +1,6 @@
 function footerr(){
-    return ` <div id="footer">
+    return ` <div id="sanjeev">
+    <div id="footer">
     <div>
         <h3>SOLUTIONS</h3>
         <p>Pluralsight Skills</p>
@@ -42,7 +43,7 @@ function footerr(){
     <div>
         <h3>SUPPORT</h3>
         <p>Contact</p>
-        <p>Help center</p>
+        <p><a href="../help care/helpcare.html"">Help center</p>
         <p>IP allowlist</p>
         <p>Sitemap</p>
     </div>
@@ -73,7 +74,9 @@ function footerr(){
         <a href="https://www.youtube.com/pluralsight"><i class="fa fa-youtube" aria-hidden="true"></i></a>
     
     </div>
+</div>
 </div>`
+
 }
 
 

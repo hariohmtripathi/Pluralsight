@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./footer/footer.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
         </style>
@@ -21,16 +22,7 @@
             background-color:#181818;
         }
 
-        /* navbar */
-        #navbar{
-            background-color: rgb(51, 48, 48);
-            height: 80px;
-        }
-
-
-
-
-
+        
         /* skills tab */
         #skills{
             margin: 130px auto 130px auto ;
@@ -487,9 +479,10 @@
         }
 
     </style>
+    <link rel="stylesheet" href="./Navbar/navbar.css">
+    
 </head>
 <body>
-
     <!-- navbar -->
    <div id="navbar"></div>
 
@@ -738,6 +731,17 @@
     </div>
 
 
+
+    <div id="footer2">
+
+    </div>
+
+
+
+
+    
+
+
    
 
 
@@ -762,3 +766,10 @@
         })
     })
 </script>
+<script type="module">
+    import navbar from "/Navbar/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar();
+
+    import footerr from "/footer/footer.js";
+    document.querySelector("#footer2").innerHTML= footerr();
+ </script>

@@ -28,7 +28,7 @@ function accountDetails(event){
     else{
         alert("Your account details is saved")
         alert("Please make your payment")
-        window.location.href="payment.html"
+        window.location.href="../paymentf_form/payment.html";
     }
     
 }

@@ -14,10 +14,6 @@
         body{
             background-color: black;
         }
-        #navbar{
-            height: 80px;
-            background-color: gray;
-        }
         #team{
             background-image: url("https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/image-res.img.76b3d816-71a6-42a0-bda5-b56969081f12.png") ;
             background-size: 70%;
@@ -638,19 +634,11 @@
             border: 1px solid white;
 
         }
-        
-
-
-
-
-
-
-
-
-
-
 
     </style>
+
+    <link rel="stylesheet" href="./Navbar/navbar.css">
+    <link rel="stylesheet" href="./footer/footer.css">
 </head>
 <body>
     <!-- navbar -->
@@ -1227,6 +1215,8 @@
         </div>
     </div>
 
+    <div id="footer2"></div>
+
 
 
 
@@ -1234,3 +1224,12 @@
 
 </body>
 </html>
+<script type="module">
+    // navbar append
+    import navbar from "/Navbar/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar();
+
+    // footer
+    import footerr from "/footer/footer.js";
+    document.querySelector("#footer2").innerHTML= footerr();
+ </script>

@@ -1,0 +1,183 @@
+<!-- this page is made by falgun manoj bokde / -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluralsight Subscription Plans and Pricing: Monthly and Annual</title>
+    <link rel="shortcut icon" href="https://user-images.githubusercontent.com/4683221/34775011-89bb46c2-f609-11e7-8bd1-d7a70d2277fd.jpg">
+    <link rel="stylesheet" href="./Navbar/navbar.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <script src="https://kit.fontawesome.com/e9bb69dc7f.js" crossorigin="anonymous"></script>
+    <style>
+        /* this style is done by falgun manoj bokade */
+body{
+    background-color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #fal{
+         height:80px;
+         width:100%;
+         /* border:1px solid teal; */
+}
+.middel-text{
+    color:#e40084;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'PS Commons Bold';
+    font-weight: 900 ;
+}
+.big-heading{
+    color:white;
+    text-align: center;
+    font-size: 56px;
+    margin-left:270px;
+    margin-right:300px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+#Big-two-box{
+    width:68.5%;
+    /* border:1px solid teal; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-template-rows: 360px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+#Big-two-box>div{
+            /* border:1px solid red; */
+            background-color: #222222;
+            width: 95%;
+        }
+#Big-two-box>div>img{
+            margin-top:50px;
+            margin-left:120px
+        }
+
+.see-where{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right : 50px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+.pick-btn{
+    background: linear-gradient( to right,crimson,tomato);
+    border:transparent;
+    height:50px;
+    width:240px;
+    margin-left:100px;
+    margin-top:25px;
+    color:white;
+    font-size:15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.pick-btn:hover{
+    background: linear-gradient( to right,tomato,crimson);
+}
+#learn{
+    color:white;
+     font-size:15px;
+     margin-left:120px;
+     margin-top: 30px;
+     cursor: pointer;
+}
+#learn:hover{
+    margin-left:115px;
+}
+.fa-angle-right{
+    font-size: 12px;
+    margin-left: 12px;
+    color: rgb(199, 28, 57);
+}
+.fa-angle-right:hover{
+    margin-left: 10px;
+}
+
+#pick-blue-btn{
+    background: linear-gradient( to right,rgb(41, 52, 202),rgb(90, 108, 190));
+    border:transparent;
+    height:50px;
+    width:240px;
+    margin-left:100px; 
+    margin-top:25px;
+    color:white;
+    font-size:15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+#pick-blue-btn:hover{
+    background: linear-gradient( to right,rgb(109, 113, 172),rgb(68, 96, 219));
+}
+    </style>
+
+</head>
+<body>
+
+    <!-- navbar will be append here throw javascript  -->
+    <div id="navbar"></div>
+
+    
+    <!-- main body part starts from here  -->
+
+     <!-- this is for space -->
+    <div id="fal"></div>
+        
+     <!-- middel-text -->
+     <h4 class="middel-text"> PLANS & PRICING</h4>
+
+    <!-- big heading  -->
+    <h1 class="big-heading">Giving you the skills and insights to build better</h1>
+
+    <!-- two boxes start from here -->
+
+    <div id="Big-two-box">
+    
+        <!-- first skill box -->
+        <div>
+            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png" alt="">
+            <p class="see-where">See where your skills stand, master the latest technologies and show off your expertise</p>
+           <a href="./fw18_0390_falgun/skill&price day4/skills&price.html"> <button  class="pick-btn">PICK A PLAN</button></a>
+            <h3 id="learn">Learn more about Skills<i class="fa-solid fa-angle-right"></i></h3>
+
+        </div>
+
+        <!-- second flow box start from here -->
+        <div>
+            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-flow.png" alt="">
+            <p class="see-where">Maximize productivity and accelerate product release cycles.</p>
+           <a href="#"> <button  id="pick-blue-btn">PICK A PLAN</button></a>
+            <h3 id="learn">Learn more about Skills<i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        
+    </div>
+
+    <!-- this page main body ends from here -->
+
+
+    
+    <!-- footer will be append here through javascript -->
+    <div id="footer2"></div>
+
+</body>
+</html>
+
+
+<script type="module">
+    // navbar append
+    import navbar from "/Navbar/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar();
+
+    // footer
+    import footerr from "/footer/footer.js";
+    document.querySelector("#footer2").innerHTML= footerr();
+ </script>

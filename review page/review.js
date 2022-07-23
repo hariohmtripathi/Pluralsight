@@ -25,8 +25,8 @@ btn.addEventListener("click", () => {
 
     setTimeout(function(){
         alert("Enjoy Learning")
-        window.location.href="index.html"
-    },3000)
+        window.location.href="../fw18_0390_falgun/createaccount day-5/createAccount.html"
+    },1000)
 
     
 })

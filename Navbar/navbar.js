@@ -23,7 +23,7 @@ function navbar(){
                         <p>Labs</p>
                         <button>NEW</button>
                     </a>
-                    <a href="">
+                    <a href="../handsonlearning.html">
                         <span><img src="./courseimage/hand.png" alt=""></span>
                         <p>Hands-on learning</p>
                     </a>
@@ -143,11 +143,11 @@ function navbar(){
             <div class="skill1">
                 <div class="comman">
                     <img id="skillimage" src="./courseimage/Skill_logo_white.png" alt="">
-                    <a href=""><p>Build tech skills to drive results</p></a>
+                    <a href="../product.html"><p>Build tech skills to drive results</p></a>
                 </div>
                 <div class="comman1">
-                    <a href=""><p>What is Skills?</p></a>
-                    <a href=""><p>View plans</p></a>
+                    <a href="../product.html"><p>What is Skills?</p></a>
+                    <a href=""../fw18_0390_falgun/skill&price day4/skills&price.html""><p>View plans</p></a>
                 </div>
             </div>
             <div class="follow">
@@ -225,7 +225,7 @@ function navbar(){
         <div id="sign" class="overlay">
             <div class="popup">
                 <a class="close" href="#">&times;</a>
-                <a href=""><div class="chose_1">
+                <a href="../fw18_0390_falgun/signIn day-2/signIn.html"><div class="chose_1">
                    <div class="head">SIGN IN WITH</div> 
                    <img src="./courseimage/Skill_logo_white.png" alt=""> 
                    <img id="crose" src="./image/icons8-expand-arrow-30.png" alt="">

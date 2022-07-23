@@ -8,6 +8,8 @@
     <title>Pluralsight Subscription Plans and Pricing Monthly and Annual</title>
     <link rel="shortcut icon"href="https://user-images.githubusercontent.com/4683221/34775011-89bb46c2-f609-11e7-8bd1-d7a70d2277fd.jpg">
     <link rel="stylesheet" href="./skills&price.css">
+    <link rel="stylesheet" href="../../Navbar/navbar.css">
+    <link rel="stylesheet" href="../../footer/footer.css">
     <script src="https://kit.fontawesome.com/1cb0bb75dc.js" crossorigin="anonymous"></script>
    
 </head>
@@ -15,7 +17,7 @@
 <body>
 
     <!-- navbar will be append in this navbarr div  -->
-    <div id="navbarr">
+    <div id="navbar">
 
     </div>
     <!-- navbar will be end here -->
@@ -58,7 +60,7 @@
             <h2> ₹ 1,499</h2>
             <h3>per month</h3>
             <h4>Core course library, <br>paths and skill assessments.</h4>
-            <button><a href="#"  class="anchorbtn"> START WITH STANDARD</a></button>
+            <button><a href="../../account details/account.html"  class="anchorbtn"> START WITH STANDARD</a></button>
             <p class="jbl">or start a <a href="#" class="anchorfree">FREE trial</a></p>
         </div>
 
@@ -334,7 +336,7 @@
 
 
     <!-- footer will be append inside footerr div  -->
-    <div id="footerr">
+    <div id="footer2">
 
     </div>
     <!-- footer will be end here -->
@@ -344,18 +346,11 @@
 
 </html>
 <script type="module">
+  // navbar append
+  import navbar from "/../Navbar/navbar.js"
+  document.querySelector("#navbar").innerHTML = navbar();
 
-    // navbar will be import here put only the location 
-    import navbarr from "./"
-    document.querySelector("#navbar").innerHTML=navbarr()
-    //navabar import script end here .
-
-    // footer will be import here put only the location of footer.js
-    import footerr from "./"
-    document.querySelector("#footerr").innerHTML=footerr()
-    // footer import script end here . 
-
-  
-
-
+  // footer
+  import footerr from "/../footer/footer.js";
+  document.querySelector("#footer2").innerHTML= footerr();
 </script>

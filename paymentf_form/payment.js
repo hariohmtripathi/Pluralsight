@@ -30,12 +30,10 @@ function paymentDetails(event){
         alert("Please fill all the required details")
     }
     else{
-        alert("Enter your otp")
         alert("Your payment is done")
-        alert("Check your Email ")
         alert("Enjoy the Learning")
+        window.location.href="../review page/review.html";
     }
-    
 }
 
 function Account(n,cn,m,y,c,ct,pc,con,a){
