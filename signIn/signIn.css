@@ -1,0 +1,162 @@
+/* styling has done by Falgun Manoj Bokde */
+#big {
+    display: flex;
+    height: auto;
+
+}
+#png {
+
+    height: 62px;
+    margin: 3% 0% 0% 23%;
+}
+#form{
+
+    margin: 0% 0% 0% 22%;
+
+}
+
+#bag {
+    height: 500px;
+    width: 40%;
+    background: rgb(13, 15, 18);
+}
+
+#img_bag {
+    width: 63%;
+    height: 610px;
+    background: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png');
+}
+#img_bag>img {
+    height: 250px;
+    margin-top: 15%;
+    margin-left: 10%;
+
+}
+.email {
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+    font-weight: 550; 
+}
+.none1 {
+    height: 35px;
+    width: 280px;
+    background: none;
+    border: 1px solid rgb(90, 83, 83);   
+    margin-top: -50px; 
+    color: white;
+}
+.email2 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+   
+}
+.none2{
+    height: 35px;
+    width: 280px;
+    background: none;
+    border: 1px solid rgb(90, 83, 83);   
+    margin-top: -50px; 
+    color: white;
+}
+
+#linBtn {
+    margin-top: 8%;
+
+}
+
+.forgot{
+    color: rgb(0, 116, 171);
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+.forgot2{
+    color: rgb(0, 116, 171);
+    margin-left: 160px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    
+}
+.forgot2:hover {
+    text-decoration: underline;
+}
+#linBtn> {
+    margin-left: 35%;
+
+}
+#nope1{
+    border-color: rgb(102, 102, 102);
+    width: 300px;
+    margin-top: 22px;
+}
+.signIn {
+    height: 40px;
+    width: 280px;
+    background-color: rgb(0, 116, 171);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.signIn>a {
+    color: white;
+    text-decoration: none;
+}
+#CreateAcc{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(50, 59, 59);
+    border: none;
+    font-size: 16px;
+    margin-left: 21.5%;
+    margin-top:22px;
+    font-weight: 600;
+}
+#CreateAcc>a {
+    color: white;
+    text-decoration: none;
+}
+.lastpara {
+    margin-top: 10%;
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottopng>img {
+    height: 45px;
+    width: 20%;
+    margin: 15% 0 0 76%;
+}
+div>#tff {
+    height: 40px;
+    width: 23%;
+    background: linear-gradient(to right, tomato, rgb(240, 0, 132), tomato);
+    border: none;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 1px;
+}
+#tff>a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background:#0D0F12;
+}
