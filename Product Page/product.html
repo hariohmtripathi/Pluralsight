@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology skills for business| Pluralsight</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: black;
+        }
+        #navbar{
+            height: 80px;
+            background-color: gray;
+        }
+        #team{
+            border: 1px solid blue;
+            background-image: url("https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/image-res.img.76b3d816-71a6-42a0-bda5-b56969081f12.png") ;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-position:right top;
+            padding: 56px 13px 56px 13px;
+            color: white;
+        }
+        #team>div{
+            background-image: url('https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/parsys/columns/column-parsys-1/animation_wrapper/parsys/generic_block/image-res.img.1494687f-1ff2-445d-ae24-7678c2471e60.png');
+            background-position:0 0;
+            background-size:210px;
+            background-repeat:no-repeat;
+            border: 1px solid red;
+        }
+        #teamSkillsImage{
+            border: 1px solid yellow;
+        }
+        #teamSkillsImage>img{
+            width: 152px;
+        }
+        #teamBody{
+            border:1px solid green;
+            margin:35px 0px 0px 45px;
+        }
+        #teamBody>div:first-child{
+            width: 60%;
+        }
+        #teamBody h1{
+            font-size: 52px;
+            line-height: 46px;
+        }
+        #teamBody>div:last-child{
+            margin-top: 20px;
+            width: 45%;
+        }
+        #teamBody p{
+            font-size: 15px;
+            line-height: 23.8px;
+        }
+        #teamBtn{
+            /* border: 1px solid orange; */
+            margin:55px 0px 0px 45px;
+        }   
+        #teamBtn>button{
+            font-size: 14px;
+            font-weight: bolder;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+            padding: 15px 60px 15px 60px;
+            border-radius: 2px;
+            color: white;
+            border: 1px solid transparent;
+        }
+
+        /* Section navigation on page */
+        #secNav{
+            border: 1px solid red;
+            margin-top: 50px;
+            padding: 37px 160px 37px 160px;
+        }
+        #secNav>div{
+            border: 1px solid yellowgreen;
+            margin: auto;
+            color: white;
+            display: flex;
+            font-weight: bolder;
+            font-size: 15px;
+            justify-content: space-evenly;
+        }
+
+
+        /* empower employees to buile their skills */
+        #empower{
+            border: 1px solid orange;
+            padding: 0px 15px 0px 15px;
+        }
+        #empower>div{
+            margin: auto;
+            background-color: #222222;
+            border-radius: 5px;
+            padding: 80px 50px 80px 50px;
+        }
+        #empowerContent{
+            margin: auto;
+            border: 1px solid red;
+            color: white;
+            /* height: 200px; */
+        }
+        #empowerContentP{
+            width: 40%;
+            border: 1px solid green;
+            margin: auto;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bolder;
+            color: #ac0f7e;
+        }
+        #empowerContenth1{
+            border: 1px solid blue;
+            margin-top: 50px;
+            width:60%;
+            margin: auto;
+            text-align: center;
+        }
+
+
+        /* confident section */
+        #confident{
+            border: 1px solid red;
+            margin-top: 70px;
+
+        }
+        #confident>div{
+            border: 1px solid blue;
+            display: grid;
+            grid-template-columns: 47% 47%;
+            gap: 60px;
+            padding: 0px 10px;
+        }
+        #confidentImage{
+            border: 1px solid red;
+        }
+        #confidentImage>img{
+            width: 480px;
+            border: 1px solid yellow;
+        }
+        #confidentBody{
+            border: 1px solid green;
+        }
+        #confidentBody>h2{
+            color: #ac0f7e;
+            font-size: 16px;
+        }
+        #confidentBody>div{
+            margin-top: 25px;
+        }
+        #confidentBody>div>h1{
+            font-size: 30px;
+            line-height: 33.3px;
+        }
+        #confidentBody>div:nth-child(3){
+            width: 80%;
+        }
+        #confidentBody>div>p{
+            font-size: 16px;
+            line-height: 20px;
+            color: rgb(208, 207, 207);
+            
+
+        }
+        #confidentSoftware{
+            border: 1px solid green;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            color: rgb(208, 207, 207);
+            
+        }
+        #confidentSoftware>div{
+            margin-bottom: 10px;
+            display: flex;
+        }
+        #confidentSoftware span{
+            color: yellow;
+            margin-right: 10px;
+        }
+
+
+        /* library */
+        #library{
+            border: 1px solid red;
+            margin-top: 70px;
+        }
+        #library>div{
+            border: 1px solid blue;
+            padding: 0px 10px;
+
+        }
+        #library>div>h1{
+            font-size: 30px;
+
+        }
+        #libraryBody{
+            border: 1px solid yellow;
+            display: grid;
+            grid-template-columns: repeat(2,44%);
+            gap: 100px;
+            margin-top: 20px;
+        }
+        #libraryBody>div>h2{
+            font-size: 25px;
+        }
+        #libraryBody>div>p{
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 22px;
+            color: rgb(208, 207, 207);
+        }
+        .libraryAvailable{
+            font-size: 17px;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+
+        /* expansive */
+        #expansive{
+            border: 1px solid red;
+            margin-top: 70px;
+
+        }
+        #expansiveBody{
+            border: 1px solid green;
+            padding: 30px 40px;
+            display: grid;
+            grid-template-columns: 60% 30%;
+            gap: 100px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, rgb(230, 85, 18),rgb(240, 51, 83), rgb(226, 15, 96));
+            align-items: center;
+            
+
+            /* justify-content: space-around; */
+        }
+        #expansiveBody>div+div{
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            border-radius: 2px;
+            font-weight: bolder;
+        }
+
+        /* features of skills */
+        #features{
+            border: 1px solid blue;
+            margin-top: 70px;
+        }
+        #features>div{
+            padding: 0px 10px;
+        }
+        #featuresTop{
+            border: 1px solid red;
+            text-align: center;
+            width: 52%;
+            margin: auto;
+        }
+        #featuresTop>p:first-child{
+            color: #ac0f7e;
+            font-weight: bolder;
+        }
+        #featuresTop>h2{
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        #featuresTop>p:last-child{
+            color: rgb(208, 207, 207);
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 25px;
+            
+        }
+        #featuresBody{
+            border: 1px solid yellow;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 32%);
+            gap: 26px;
+        }
+        .featuresCard{
+            border: 1px solid yellowGreen;
+            background-color: #373637;
+            border-radius: 5px;
+
+        }
+        .featuresCard>div:first-child{
+            display: flex;
+            border: 1px solid green;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .featuresCard>div:first-child>span{
+            display: block;
+            margin-right: 10px;
+        }
+        .featuresCard>div:first-child>p{
+            font-size: 17px;
+            font-weight: bolder;
+        }
+        .featuresCard>div:nth-child(2){
+            font-size: 17px;
+            line-height: 20px;
+            color: rgb(208, 207, 207);
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+
+            
+        }
+        .featuresCard>div:last-child{
+            display: flex;
+            justify-content: center;
+            margin: 30px 0px;
+            align-items: center;
+        }
+        .featuresCard>div:last-child>p{
+            font-size: 17px;
+            font-weight: bolder;
+            margin-right: 5px;
+        }
+        .featuresCard>div:last-child>span{
+            color: #ac0f7e;
+            font-size: 17px;
+            font-weight: bolder;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar"></div>
+
+    <!-- technology team -->
+    <div id="team">
+        <div>
+            <div id="teamSkillsImage">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo_ps-skills.png" alt="">
+            </div>
+
+            <div id="teamBody">
+
+            <div>
+                <h1>Where technology teams
+                    build better skills, faster</h1>
+            </div>
+            <div>
+                <p>
+                    Technology teams are only as successful as their skills are relevant. With access to expert-authored courses and content, skill assessments and analytics, Pluralsight Skills gives you the most effective path to building business-critical skills.
+                </p>
+            </div>
+
+            </div>
+
+            <div id="teamBtn">
+                <button>TRY FOR FREE</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Section navigation on page -->
+    <div id="secNav">
+        <div>
+            <div>
+                <p>COURSE LIBRARY</p>          
+            </div>
+            <div>
+                <p>SKILLS FEATURES</p>
+            </div>
+            <div>
+                <p>ROI</p>
+            </div>
+            <div>
+                <p>PRICING</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- empower employees to build their skills -->
+    <div id="empower">
+        <div>
+            <div id="empowerContent">
+                <div id="empowerContentP">
+                    <p>THE TECHNOLOGY SKILLS PLATFORM</p>
+                </div>
+                <div id="empowerContenth1">
+                    <h1>Empower employees to build their skills</h1>
+                </div>
+
+                <!-- confident section -->
+            <div id="confident">
+                <div>
+                    <div id="confidentImage">
+                        <img src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block_copy/parsys/generic_block_413530/parsys/animation_wrapper/parsys/columns_copy/column-parsys-1/generic_block_202764/parsys/columns_copy/column-parsys-1/generic_block_copy_c/parsys/image/image-res.img.344032d8-90ae-46d8-875d-ca8374e4c28b.png" alt="">
+                    </div>
+                    <div id="confidentBody">
+                        <h2>COURSE LIBRARY</h2>
+                        <div>
+                            <h1>Feel confident your team is learning from the industry’s best</h1>
+                        </div>
+                        <div>
+                            <p>Upskill your team with courses on the most in-demand technology topics, taught by the experts who know them best.</p>
+                        </div>
+                        <div id="confidentSoftware">
+                            <div>
+                                <span>&check;</span>
+                                <p>Software Development</p>
+                            </div>
+                            <div>
+                                <span>&check;</span>
+                                <p>Data Professional</p>
+                            </div>
+                            <div>
+                                <span>&check;</span>
+                                <p>Machine Learning & AI</p>
+                            </div>
+                            <div>
+                                <span>&check;</span>
+                                <p>Information & Cybersecurity</p>
+                            </div>
+                            <div>
+                                <span>&check;</span>
+                                <p>IT Ops</p>
+                            </div>
+                            <div>
+                                <span>&check;</span>
+                                <p>Cloud computing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- library -->
+            <div id="library">
+                <div>
+                    <h1>Compare our libraries</h1>
+                    <div id="libraryBody">
+                        <div>
+                            <h2>Core library</h2>
+                            <p>
+                                Our core library features 2,500+ of our most-popular courses on in-demand topics like cloud, data, security, software development, infrastructure and more.
+                            </p>
+                            <p class="libraryAvailable">*Available in our starter plan</p>
+                        </div>
+                        <div>
+                            <h2>Expanded library</h2>
+                            <p>
+                                Our expanded library gives you access to our full 7,000+ course library. It includes more advanced topics if you need to build deep expertise and niche topics for those tackling special projects.                            </p>
+                            <p class="libraryAvailable">*Available in our professional and enterprise plans</p>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+            <!-- expansive -->
+            <div id="expansive">
+                <div id="expansiveBody">
+                    <div>
+                        <h2>
+                            Explore our expansive library of expert-authored courses</h2>
+                    </div>
+                    <div>
+                        <p>BROWSE OUR COURSE LIBRARIES</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- features of skills -->
+            <div id="features">
+                <div>
+                    <div id="featuresTop">
+                        <p>FEATURES OF SKILLS</p>
+                        <h2>Tools to help your team grow</h2>
+                        <p>Give your team a trusted skill development solution that allows them to build in-demand skills in a way that’s personalized to their current knowledge and preferred way to learn.</p>
+                    </div>
+               
+
+            <div id="featuresBody">
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/hand.png" alt="">
+                        </span>
+                        <p>Hands-on learning</p>
+                    </div>
+                    <div>
+                        <p>Upskill with interactive courses, projects, labs, and practice what you’ve learned with sandboxes.</p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/iq.png" alt="">
+                        </span>
+                        <p>Skill assessments</p>
+                    </div>
+                    <div>
+                        <p>Get personalized recommendations for where to start and continue learning with our assessments.</p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/play-circle-filled.png" alt="">
+                        </span>
+                        <p>Instructor-led training</p>
+                    </div>
+                    <div>
+                        <p>Our experts create and administer a custom skill development plan for your entire team.</p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/certifications.png" alt="">
+                        </span>
+                        <p>Certification content</p>
+                    </div>
+                    <div>
+                        <p>Access courses and paths that are aligned with and help you prepare for industry certifications.</p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/path.png" alt="">
+                        </span>
+                        <p>Paths</p>
+                    </div>
+                    <div>
+                        <p>Learning material curated by experts to help your team build the right skills in the right order.</p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="featuresCard">
+                    <div>
+                        <span>
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/skills/icons/analytics.png" alt="">
+                        </span>
+                        <p>AnaLytics</p>
+                    </div>
+                    <div>
+                        <p>Get the insights you need to align skill development to your objectives./p>
+                    </div>
+                    <div>
+                        <p>Learn More</p>
+                        <span>></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            </div>
+            </div>
+
+            </div>
+
+
+            
+        </div>
+    </div>
+
+
+</body>
+</html>
