@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body circle --------- */
+.sub-body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+.menu-form ul{
+    list-style: none;
+}
+select{
+    width: 100%;
+    padding: 8px 12px;
+}
+/* section right ------- */
+.sub-body{
+    margin-top: 80px;
+}
+.text_right>button{
+    margin-left: 8px;
+}
+.Right{
+    background-color: #fff;
+    padding: 10px 20px 40px;
+    font-family: 'PS TT Commons Roman';
+    margin-left: 100px;
+}
+.right-section{
+    padding: 0px 65px;
+}
+form>h2{
+    margin: 32px 0px 0px;
+}
+form>p, label{
+    font-size: 15px;
+    color: #1e2429;
+    margin: 0px 0px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2.3;
+}
+form>p{
+    font-family: 'PS TT Commons Roman', Montserrat, Arial, sans-serif;
+    font-size: 15px;
+}
+.search-text label{
+    font-family: 'PS TT Commons Roman', Montserrat, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}

@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*---------- navbar ----------------- */
+.navbar {
+    overflow: hidden;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-sec {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 77px;
+}
+
+input:focus {
+    color: #fff;
+}
+
+div>a>img {
+    width: 100%;
+    height: 100%;
+    height: 42px;
+    margin: 5px 10px 0px;
+    padding-right: 45px;
+}
+
+#help-search>input {
+
+    width: 256px;
+    height: 40px;
+    text-align: left;
+    background-color: #222;
+    background-image: url('https://dyzz9obi78pm5.cloudfront.net/app/image/id/5ab17457ec161ce92b7d9b9b/n/search.svg');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 3px 7px;
+    border: solid 2px #555;
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 8.183px 14px 8.183px 35px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    appearance: none;
+    transition: all .3s ease;
+    margin-left: 0px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    padding: 26px 16px 22px;
+    color: #fff;
+}
+
+.right-nav a {
+    font-size: 13px;
+    height: 56px;
+    width: 80px;
+
+}
+
+.right-nav>a>img {
+    width: 100px;
+    height: 50px;
+
+}
+
+.right-nav button {
+    background-color: #e80a89;
+    color: #fff;
+    font-weight: 900;
+    height: 32px;
+    border: 1px solid transparent;
+}
+
+.right-nav div>a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.right-nav div:hover {
+    background-color: #e80a89;
+}
+
+.right-nav button>a,
+.right-nav>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-nav div {
+    width: 170px;
+    margin-right: 10px;
+}
+
+.right-nav .btn1 {
+    padding: 0px 24px;
+    border-radius: 2px;
+    margin: 0px 0px 0px 16px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.fa-solid {
+    margin: 10px;
+}
+
+
+/* contact form and ticket sectionn  */
+.request {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px 0px;
+}
+
+.range {
+    display: flex;
+    justify-content: left;
+    margin: 65px 200px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#container-ticket {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: left;
+}
+
+#container-ticket>div img {
+    width: 80px;
+    height: 100px;
+}
+#container-ticket>div{
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    font-family: 'PS TT Commons Roman', Arial, sans-serif;
+}
+#container-ticket>div h3 {
+    font-family: 'PS TT Commons Roman', Arial, sans-serif;
+    font-size: 25px;
+}
+#container-ticket>div:hover{
+    cursor: pointer;
+}
+/* footer ?----- */
+.footer {
+    background-color: #222;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.hepl-footer {
+    height: 100px;
+    width: auto;
+    padding: 40px 0px 0px;
+    font-size: 12px;
+}
+
+.body-footer-top {
+    height: 42px;
+    width: auto;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.col-6>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links {
+    padding: 0px 15px 0px 100px;
+}
+
+.copy-R {
+    display: grid;
+    justify-content: end;
+    padding: 0px 100px 0px 15px;
+}
+
+.footer-links>a:hover {
+    font-size: 13px;
+    text-decoration: underline aqua;
+}
+
+.belowfooter {
+    margin-top: 30px;
+    height: 10px;
+    background-color: #f15b2a;
+    background: -webkit-linear-gradient(left, #f15b2a, #e80a89);
+    background: -o-linear-gradient(right, #f15b2a, #e80a89);
+    background: linear-gradient(to right, #f15b2a, #e80a89);
+}

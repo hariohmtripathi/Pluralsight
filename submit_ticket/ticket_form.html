@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form | Pluralsight</title>
+    <link rel="stylesheet" href="submit_ticket.css">
+    <link rel="stylesheet" href="form_tickets.css">
+    <script src="https://kit.fontawesome.com/e9bb69dc7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar section  -->
+    <div class="navbar">
+        <div class="sub-sec">
+            <div>
+                <a href="homepage.html">
+                    <img src="https://dyzz9obi78pm5.cloudfront.net/app/image/id/62d999be6f5cd316e80a3bcf/n/pluralsight-hs-logo-white-and-color-1.png"
+                        alt="logo">
+                </a>
+            </div>
+            <form action="">
+                <div id="help-search">
+                    <input type="search" placeholder="How can we help you?" name="search" autocomplete="additional-name">
+                </div>
+            </form>
+        </div>
+        <div class="right-nav">
+            <!-- ticket  -->
+            <div><a href="request.html">Tickets</a></div>
+            <a href="#"><img
+                    src="https://dyzz9obi78pm5.cloudfront.net/app/image/id/62b2128d4354df345341c7a7/n/email-1-2.png"
+                    alt="mail"></a>
+            <a href="#"><img
+                    src="https://dyzz9obi78pm5.cloudfront.net/app/image/id/62b2128b764c4557322dc948/n/phone-2-2.png"
+                    alt="contact"></a>
+            <button class="btn1"><a href="submit_ticket.html">Contact Support</a></button>
+        </div>
+    </div>
+
+    <div class="sub-body">
+        <div class="menu-form">
+            <ul>
+                <li>
+                    <div><a href="#"> <i class="fa-solid fa-caret-right"></i> Home</a></div>
+                </li>
+                <li>
+                    <div><a href="#"><i class="fa-solid fa-caret-right"></i> Skill</a></div>
+                </li>
+                <li>
+                    <div><a href="#"><i class="fa-solid fa-caret-right"></i> Flow</a></div>
+                </li>
+                <li>
+                    <div><a href="#"><i class="fa-solid fa-caret-right"></i> Flow Enterprise server</a></div>
+                </li>
+                <li>
+                    <div><a href="#"><i class="fa-solid fa-caret-right"></i> Billing and subscriptions</a></div>
+                </li>
+                <li>
+                    <div><a href="#">Technical requirements</a></div>
+                </li>
+                <li>
+                    <div><a href="#">Troubleshooting & common questions</a></div>
+                </li>
+                <li>
+                    <div><a href="#">What's New</a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="Right">
+            <div class="right-section">
+                <div class="form_div">
+                    <form class="form" id="ticket_form">
+                        <h2>How can we help you?</h2>
+                        <p>Where should this ticket go?</p>
+                        <select name="" class="contact_subject" id="sele">
+                            <option value="support">support</option>
+                            <option value="Content Feedback">Content Feedback</option>
+                            <option value="New feature suggestions">New feature suggestions</option>
+                            <option value="Website Feedback">Website Feedback</option>
+                            <option value="New Content suggestions">New Content suggestions</option>
+                        </select>
+                        <div class="search-text">
+                            <label for="contact_subject">Subject (required)</label>
+                            <input type="text" id="subject" placeholder="skills" class="form-control contact_subject"
+                                required>
+                        </div>
+                        <div class="search-text top">
+                            <label for="contact_subject ">Details (required)</label>
+                            <textarea type="text" id="deta" style="width: 621px; height: 138px;" spellcheck="false"
+                                placeholder=" " class="form-control contact_subject"></textarea>
+                        </div>
+                        <div class="search-text">
+                            <label for="contact_subject">Your Name (required)</label>
+                            <input type="text" id="name" placeholder=" " class="form-control contact_subject" required>
+                        </div>
+                        <div class="search-text">
+                            <label for="contact_subject">Your email address (required)</label>
+                            <input type="text" id="email" placeholder=" " class="form-control contact_subject" required>
+                        </div>
+                        <div class="search-text">
+                            <label for="contact_subject">Product (skills, Flow, ACG, Other)</label>
+                            <input type="text" id="prod" placeholder=" " class="form-control contact_subject" required>
+                        </div>
+                        <div class="search-text">
+                            <label for="contact_subject">Upload an attachment</label>
+                            <input type="file" id="file_upload" class="form-control ">
+                        </div>
+                        <div class="text_right">
+                            <button class="btn leftmg"><a href="submit_ticket.html">Back</a></button>
+                            <input type="submit" id="formsubmit" class="btn" value="submit">
+                            <!-- <button class="btn" id="formsubmit">Submit</button> -->
+                            <!-- <a href="thankyou.html"></a> -->
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+    <div class="footer">
+        <div class="hepl-footer">
+            <div class="body-footer-top">
+                <div class="rows">
+                    <div class="col-6 footer-links">
+                        <a href="https://www.pluralsight.com/sitemap.xml">Site
+                            Map</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.pluralsight.com/sitemap.xml">Terms of
+                            user</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.pluralsight.com/sitemap.xml">Privacy notice</a>
+                    </div>
+                    <div class="col-6 copy-R">
+                        Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved
+                    </div>
+                </div>
+                <div class="belowfooter"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    let TicketLS = JSON.parse(localStorage.getItem("ticket_report")) || [];
+    let form = document.querySelector("#ticket_form");
+    let formdetail = document.getElementById("formsubmit");
+
+
+    const getData = () => {
+        event.preventDefault();
+        console.log("show")
+        let ticket = {
+            ticket_section: document.getElementById("sele").value,
+            subject: document.getElementById("subject").value,
+            details: document.getElementById("deta").value,
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            product: document.getElementById("prod").value,
+            file: document.getElementById("file_upload").value
+        }
+        TicketLS.push(ticket);
+
+        alert("Check the ticket tab to see your ticket resoponse");
+
+        localStorage.setItem("ticket_report", JSON.stringify(TicketLS))
+        window.location.href = "./thankyou.html";
+
+    }
+    form.addEventListener("submit", getData);
+
+</script>
