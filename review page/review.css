@@ -1,0 +1,117 @@
+
+body{
+    background-color: black;
+}
+#review{
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    /* padding-top: 50px; */
+    margin-top: 80px;
+}
+#review1{
+    width: 90%;
+    height: 60%;
+    color: #fff;
+    /* text-align: center; */
+    /* padding-top: 0px; */
+    margin-top: -60px;
+    background-color: #212121;
+    padding-left: 40px;
+}
+#review1>button{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #205DA2;
+    border: none;
+}
+#review2{
+    width: 90%;
+    height: 100%;
+    padding-left: 40px;
+    margin-top: -78px;
+}
+#order{
+    width: 100%;
+}
+#order1{
+    width: 90%;
+}
+#order2{
+    background-color: #212121;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#order3{
+    display: flex;
+    color:#e8e6d6;
+    margin-left:19px;
+    font-size: 14px;
+}
+#order4{
+    display: flex;
+    color:#e8e6d6;
+}
+#order6{
+    display: flex;
+    margin-left:220px;
+}
+#order7{
+    display: flex;
+    margin-left:220px;
+    margin-top: -20px;
+}
+#order8{
+    display: flex;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.class{
+    width: 40%;
+    height: 30px;
+    display: block;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+#div4{
+    display: flex;
+    margin-left: 300px;
+    background-color: #212121;
+    width: 29%;
+    padding-left: 20px;
+    margin-top: 40px;
+    
+}
+#div5{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #e8e6d6;
+    text-align:center;
+    padding-top:1px;
+    background-color: #205da2;
+    margin-top: 23px;
+    
+}
+.div4{
+    display: flex;
+    margin-left: 300px;
+    background-color: #212121;
+    width: 29%;
+    padding-left: 20px;
+    margin-top: -240px;
+}
+.div5{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #e8e6d6;
+    text-align:center;
+    padding-top:1px;
+    background-color: #205da2;
+    margin-top: 23px;
+}
