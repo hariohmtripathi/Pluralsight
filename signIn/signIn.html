@@ -1,0 +1,88 @@
+<!-- this page is created by Falgun manoj bokde -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Pluralsight</title>
+    <link rel="stylesheet" href="signIn.css">
+    <link rel="shortcut icon" href="https://user-images.githubusercontent.com/4683221/34775011-89bb46c2-f609-11e7-8bd1-d7a70d2277fd.jpg">
+</head>
+<body>
+
+    <div id="big">
+        <div id="bag">
+            <img id="png" src="https://app.pluralsight.com/id/img/login-logo.png" alt="">
+            <!-- login form start from here -->
+
+            <form id="form">
+
+                <h4 class="email">Email or Username</h4>
+                <input class="none1" id="Email" type="text">
+
+                <h4 class="email2">Password</h4>
+                <input class="none2" id="Password" type="password">
+
+                <h6>
+                    <input class="signIn" id="submit" type="submit"  value="submit" />
+                </h6>
+            </form>
+
+            <!-- lower part of signup from here -->
+
+            <div id="linBtn">
+                <a class="forgot" href="#">Forgot Password?</a><br><br>
+                <a class=" forgot2" href="#">Sign in with company or school</a>
+                <hr id="nope1">
+                <button id="CreateAcc" ><a href="./createAccount.html">Create an account</a></button>
+                <h6 class="lastpara">Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved. <br>
+                    Terms of Use | Privacy Policy</h6>
+            </div>
+        </div>
+
+
+        <!-- Right side section start from here -->
+
+        <div id="img_bag">
+            <img src="https://www.pluralsight.com/content/dam/pluralsight2/login/login-h1.png" alt="">
+            <div><button id="tff"><a href="#"> Try for free</a></button></div>
+            <div class="bottopng">
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo-build-better.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("#form").addEventListener("submit",myfunction)
+    var userdata=JSON.parse(localStorage.getItem("userdata"));
+    
+    function myfunction(){
+        event.preventDefault()
+      var  data={
+        
+         Email:form.Email.value,
+         Password:form.Password.value,
+         
+        }; 
+    
+        if (userdata==null){
+            alert("Please Create Account")
+        }
+        if ((userdata.PersonEmail==data.Email) &&  (userdata.PersonPassword==data.Password))
+        {
+
+        setTimeout(function(){
+          alert("Sign in successful");
+          window.location.href="#"
+          localStorage.setItem("singin",JSON.stringify(userdata));
+        },1000)  
+        }
+        else{
+            alert("Wrong Creaditinals")
+        }
+      
+        }  
+</script>
