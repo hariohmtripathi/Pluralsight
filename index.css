@@ -1,0 +1,544 @@
+/* this style is made by osama khan */
+*{
+    margin: 0;
+    padding: 0;
+}
+#black{
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+#home{
+    background-image: url(./mainImage/hero-illustration.png);
+    background-size: 100%;
+    height: 582px;
+    width: 100%;
+    background-color: black;   
+   
+  }
+  .contain{
+      width: 50%;
+      height: 400px;
+      margin: auto;
+      text-align: center;
+      padding-top: 180px;
+      
+  }
+  .contain>h1{
+      font-size: 56px;
+      margin-bottom: 40px;
+      font-weight: 700;
+  }
+  .contain>p{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .contain>a>button{
+      height: 55px;
+      margin-bottom: 80px;
+      width: 20%;
+      margin-left: 30px;
+  }
+  a{
+      text-decoration: none;
+  }
+  .button_firt{
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(90deg,#f15b2a 0,#ec008c 100%);
+  }
+  .button_firt:hover{
+    background: linear-gradient(90deg,#ec008c 0,#fa541d 100%);
+  }
+  .button_second{
+      font-weight: 700;
+    border: 1px solid white;
+    color: #fff;
+    background-color: black;
+  }
+  .contain>h6{
+      font-size: 15px;
+      color: #aaa;
+      font-weight: 700;
+      margin-bottom: 20px;
+  }
+  .contain>img{
+      margin-left: 80px;
+  }
+  #home2{
+    height: 900px;
+    background-color: black;
+    width: 100%;
+    padding-top: 40px;
+}
+.line{
+    width: 6px;
+    background-image: linear-gradient(to right top, #0b0b0b, #2c1d32, #5a264c, #912955, #c62f4d, #da334c, #ed3949, #ff4144, #ff315c, #ff2474, #ff218c, #f72aa5);
+    height: 150px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.trangle{
+    height: 660px;
+    display: flex;
+}
+.trangle_image{
+   height: 100%;
+    width: 50%;
+}
+.trangle_image_2{
+    height: 100%;
+    width: 50%;
+}
+.trangle_image_2>img{
+    margin-left: 22%;
+}
+
+.popular{
+    height: 660px;
+    width: 50%;
+    margin-top: -34.8%;
+    margin-left: 25%;
+}
+.popular>h6{
+    color: #e40084 !important;
+    font-size: 15px;
+    margin-top: 29px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.popular>h3{
+    font-size: 32px;
+}
+.popular_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.popular_grid>a>div{
+background-color: #222222;
+height: 200px;
+width: 100%;
+margin-top: 60px;
+border-radius: 10px;
+}
+.path_container>img{
+   width: 23%;
+   margin-left: 78%;
+}
+.path{
+    color: #e40084 !important;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -19%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.lang{
+    margin-left: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.path_cour{
+    margin-left: 20px;
+}
+.path_cour>span:nth-child(2){
+    margin-left: 5px;
+    color: #AAA;
+}
+.look_path{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+
+
+ /* Big countiner Css  */
+
+
+.big_counter{
+    width: 100%;
+    height: 1970px;
+    background-color: #181818;
+}
+
+
+ /* Big countiner first div */
+
+.first_div_skill{
+   
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+}
+.pra{
+   padding-top: 10%;
+   width: 40%;
+   margin-left: 15%;
+}
+.pra>h6{
+    color: #e40084 !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.pra>h3{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.first_div_deepen_1{
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+    background-color: #212121;
+}
+.first_div_deepen_2{
+    
+    height: 500px;
+    width: 50%;
+}
+.first_div_deepen_2>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.arrow {
+    border: 1px solid #ec008c;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-43deg);
+    transition: 0.3s all;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    
+  }
+  .arrow:hover{
+      margin-left: 20px;
+    transition: .3s all;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+.first_div_flow_1>img,.first_div_deepen_1>img{
+    width: 20%;
+    margin-top: 80px;
+    margin-left: 32px;
+}
+.first_div_deepen_1>h6{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.first_div_flow_1>h3,.first_div_deepen_1>h3{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.first_div_deepen_1>p{
+    margin-left: 30px;
+    color: #eee;
+    font-size: 17px;
+    width: 92%;
+    line-height: 24px;
+}
+.first_div_flow_1>a>p,.first_div_deepen_1>a>p{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+/* big countiner Secound div */
+.first_div_flow{
+    
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.first_div_flow_1{
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+    background-color: #212121;
+}
+.first_div_flow_1>p{
+    margin-left: 30px;
+    color: #eee;
+    font-size: 17px;
+    width: 94%;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+/* third div */
+
+.first_div_grid{
+
+   
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.first_div_grid>div{
+   background-color: #222222;
+   border-radius: 20px;
+    width: 90%;
+    margin-left: 17px;
+}
+ .first_div_grid>div>img{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 22px;
+ }
+ .first_div_grid>div>h3{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 24px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .first_div_grid>div>p{
+    margin-left: 20px;
+    color: #eee;
+    font-size: 17px;
+    width: 90%;
+    line-height: 24px;
+ }
+ .first_div_grid>div>a>p{
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+
+ .first_div_grid_2_continer{
+     width: 100%;
+     background-color: #000;
+     height: 2350px;
+ }
+ .pra_1{
+    padding-top: 5%;
+    width: 40%;
+    margin-left: 14.6%;
+ }
+ .pra_1>h6{
+     color: #e40084 !important;
+     font-size: 15px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     margin-bottom: 10px;
+ }
+ .pra_1>h3{
+     font-size: 32px;
+     margin-bottom: 15px;
+ }
+ .first_div_grid_2{
+   
+    width: 72%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .first_div_grid_2>div{
+    
+     width: 94%;
+     margin-left: 12px;
+ }
+ .first_div_grid_2>div>img{
+     width: 100%;
+     border-radius: 20px;
+     margin-top: 40px;
+     margin-bottom: 20px;
+ }
+ .first_div_grid_2>div>h6{
+    color: #ffba0f !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+ }
+ .first_div_grid_2>div>p{
+    color: #eee;
+    font-size: 17px;
+    width: 94%;
+    line-height: 24px; 
+ }
+ .first_div_grid_3{
+   
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 50px;
+ }
+ .first_div_grid_3>div{
+     width: 55%;
+    
+ }
+ .first_div_grid_3>div:nth-child(2){
+     width: 45%;
+ }
+ .man_image_store>img{
+     width: 100%;
+     height: 100%;
+ }
+ .my_pluralsightstory{
+  font-size: 78px;
+  background-color: rgb(128, 128, 128);
+   opacity: 0.6;
+   margin-top: -48.2%;
+ }
+ .my_pluralsightstory{
+    width: 100%;
+    color: white;
+    height: 500px;
+ }
+ .my_pluralsightstory_font>h4{
+     width: 50%;
+     padding-top: 10%;
+     padding-left: 20%;
+ }
+ .from_solider{
+     background-color: #189dbe;
+ }
+.from_solider>img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.from_solider>p{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+    letter-spacing: 1.4px;
+    margin-top: 40px;
+}
+.from_solider>a>button{
+    height: 50px;
+    width: 25%;
+    background-color: #181818;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.from_solider>a>button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.share_your{
+   
+    width: 40%;
+    height: 100px;
+    margin-top: 8%;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.mySlides {display:none;
+    height: auto;
+    width: 100%;
+}
+.l{
+    /* border: 1px solid red; */
+    height: auto;;
+    display: flex;
+}
+.l>div{
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 100%;
+    margin-left: 35px;
+}
+
+#imgggg{
+    width: 100%;
+    height: 100%;
+}
+#cont{
+    width: 70%;
+    margin: auto;
+}
+.buttonleft{
+    display: block;
+    margin-top: -11%;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin-left:-30px;
+}
+.buttonright{
+    display: block;    
+    margin-top: -2%;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin-left:1350px; 
+   
+}
+.first_div_grid_4{  
+    width: 100%;
+    margin: auto;
+    height: 500px;
+   
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.first_div_grid_4>img{
+    width: 100%;
+    height: 100%;
+}
+.first_div_grid_5{
+    background-color: #181818;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+}
+.first_div_grid_5>h2{
+  font-size: 40px;
+  padding-top: 7%;
+  margin-left: 13%;
+}
+.first_div_grid_5>button{
+    height: 55px;
+    background: linear-gradient(90deg,#f15b2a 0,#ec008c 100%);
+    width: 15%;
+    margin-top: 7%;
+    margin-left: 20%;
+    font-size: 17px;
+    letter-spacing: 1;
+    font-weight: 700;
+}
+.first_div_grid_5>button:hover{
+    background: linear-gradient(90deg,#ec008c 0,#fa541d 100%);
+}
