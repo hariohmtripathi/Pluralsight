@@ -1,5 +1,6 @@
 /* This css is made by falgun manoj bokde */
 .boxx {
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 500px;
