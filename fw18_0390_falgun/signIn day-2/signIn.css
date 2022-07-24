@@ -1,7 +1,8 @@
 /* styling has done by Falgun Manoj Bokde */
 #big {
     display: flex;
-    height: auto;
+    height: 800px;
+
 
 }
 #png {
@@ -19,6 +20,7 @@
     height: 500px;
     width: 40%;
     background: rgb(13, 15, 18);
+
 }
 
 #img_bag {

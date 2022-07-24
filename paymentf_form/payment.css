@@ -84,10 +84,15 @@ input,select{
 #submit{
     margin-top: 10px;
     margin-left: 37px;
-    width: 40%;
+    width: 35%;
     height: 42px;
-    background-color: #205da2;
+    background-color: #0184bc;
     font-size: 15px;
+    border-radius: 2px;
+    
+}
+.submitBtn123{
+    color: white;
 }
 #om{
     width: 75%;
@@ -105,7 +110,7 @@ input,select{
 }
 #order{
     /* margin-top: 10px; */
-    width: 85%;
+    width: 95%;
     /* height: 500px; */
     /* border: 1px solid red; */
 }

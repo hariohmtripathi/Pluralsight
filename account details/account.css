@@ -80,6 +80,9 @@ body{
     margin:19px 25px 0px 25px;
     display: flex;
 }
+#div10{
+    margin-left: 20px;
+}
 #div12{
     display: flex;
     color:#e8e6d6;
@@ -127,4 +130,7 @@ body{
 }
 a:link{
     text-decoration: none;
+}
+#btn456{
+    color: white;
 }

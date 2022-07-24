@@ -32,7 +32,6 @@
 
 .inside>h3 {
     font-size: 15px;
-    margin-top: -25px;
     font-weight: 400;   
 }
 .inside>h4{
@@ -87,6 +86,7 @@
 }
 
 #first>h1 {
+    margin-top: 50px;
     font-size: 55px;
     font-family: 'Noto Sans', sans-serif;
 
@@ -121,6 +121,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 60px;
     margin: auto;
+    margin-bottom: 30px;
 
 }
 
@@ -195,6 +196,9 @@ body {
     background: linear-gradient(to right, deeppink, tomato);
 }
 
+#are{
+    margin-bottom: 30px;
+}
 
 #saying{
     width: 100%;
