@@ -174,7 +174,6 @@ input{
   }
   .trending{
       width: 65%;
-      border: 1px solid green;
   }
   .skill>a>p{
     font-size: 17px;
@@ -186,7 +185,7 @@ input{
       position: absolute;
        margin-top: -80px;
       margin-left: 29%;
-      font-size: 15px;
+      font-size: 12px;
     font-weight: bolder;
     padding: 15px 30px;
     color: #ffff;
@@ -203,14 +202,30 @@ input{
       /* margin-top: 35px; */
       display: flex;
       border-radius: 5px;
-      border: 1px solid red;
+      margin-bottom: 20px;
+
+
+  }
+  #h{
+    font-size: 12px;
+    color: white;
+  }
+  #h+p{
+    margin: 0px;
+  }
+  #h+p>span>img{
+    width: 10px;
+    height: 10px;
+  }
+  .trend p{
+    font-size: 12px;
   }
   .trend2{
     background-color: #222;
       position: absolute;
-      height: 57px;
+      margin: -250px;
       width: 20%;
-      margin-top: -19%;
+      /* margin-top: -19%; */
       margin-left: 22%;
       display: flex;
       border-radius: 5px;
@@ -218,9 +233,8 @@ input{
   .trend3{
     background-color: #222;
     position: absolute;
-    height: 57px;
-    width: 19%;
-    margin-top: -11.9%;
+    width: 20%;
+    margin-top: -100px;
     margin-left: 22%;
     display: flex;
     border-radius: 5px;

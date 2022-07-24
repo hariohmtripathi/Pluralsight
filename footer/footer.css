@@ -1,8 +1,7 @@
 
 #sanjeev{
     background-color: #222222;
-    margin-left: 70px;
-    margin-right: 70px;  
+    padding: 0px 10px;
 }
 #footerr{
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -13,14 +12,19 @@
 }
 #footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-self: center;
-    border: 1px solid red;
     width: 100%;
 }
 #footer>div{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+#footer a{
+    color: #7c7c7d;
+}
+#footer a:hover{
+color: white;
 }
 h3{
     /* color: #FFFFFF;
@@ -52,7 +56,8 @@ hr{
 }
 #lan{
     display: flex;
-    /* margin-left: 10px; */
+    align-items: center;
+    margin-left: 65px;
 }
 #lan>img{
     margin-top: 10px;
@@ -66,12 +71,10 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 #cright>div{
     display: flex;
-}
-#cright>div:nth-child(1){
-    width: 500px;
 }
 h4{
     /* color: #FFFFFF; */
@@ -84,13 +87,23 @@ h4{
     
 }
 .logo{
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 5px;
-    width: 40px;
-    height: 40px;
+    align-items: center;
 }
 .logo>p{
     margin-left: 20px;
     margin-top: 10px;
+}
+.logo>img{
+    width: 35px;
+}
+.icon{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .icon>a,i{
     margin-left: 20px; 

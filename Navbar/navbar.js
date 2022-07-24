@@ -55,13 +55,13 @@ function navbar(){
                         <div class="trend">
                         <img src="https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png?w=75" alt="">
                         <div>
-                           <p> Microsoft Azure Deployment</p>
+                           <p id="h"> Microsoft Azure Deployment</p>
                            <p id="course_time">
                                <span>4</span>
                                <span>Courses</span>
                                <span>7</span>
                                <span>Hours</span>
-                               <span><img src="./courseimage/iq.png" alt=""></span>
+                               <span id="s"><img src="./courseimage/iq.png" alt=""></span>
                             </p>
                         </div>
                     </div>
@@ -71,13 +71,13 @@ function navbar(){
                     <div class="trend">
                         <img src="https://pluralsight2.imgix.net/paths/images/r-programming-eb2e267a97.png?w=75" alt="">
                         <div>
-                          <p>  Cleaning Data With R</p>
+                          <p id="h">  Cleaning Data With R</p>
                           <p id="course_time">
                             <span>5</span>
                             <span>Courses</span>
                             <span>8</span>
                             <span>Hours</span>
-                            <span><img src="./courseimage/iq.png" alt=""></span>
+                            <span id="s"><img src="./courseimage/iq.png" alt=""></span>
                          </p>
                         </div>
                     </div>
@@ -87,13 +87,13 @@ function navbar(){
                         <div class="trend">
                             <img src="https://pluralsight2.imgix.net/paths/images/ruby-7e88ddd5f0.png?w=75" alt="">
                             <div>
-                                <p>Ruby Language Fundamentals</p>
+                                <p id="h">Ruby Language Fundamentals</p>
                                 <p id="course_time">
                                     <span>7</span>
                                     <span>Courses</span>
                                     <span>13</span>
                                     <span>Hours</span>
-                                    <span><img src="./courseimage/iq.png" alt=""></span>
+                                    <span id="s"><img src="./courseimage/iq.png" alt=""></span>
                                  </p>
                             </div>
                         </div>
