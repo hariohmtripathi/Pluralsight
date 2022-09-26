@@ -4,7 +4,7 @@
 <a href="#"><img width="15%" height="auto" src="https://www.pluralsight.com/content/dam/ps-nav-assets/pluralsight-company-white-logo.png"/></a>
 
 
-Clone of Pluralsight (https://https://www.pluralsight.com//)
+Clone of Pluralsight (https://classy-semolina-ace696.netlify.app/)
  <hr>
 
 
@@ -45,15 +45,4 @@ This project was a result of the collaboration of five team members within four 
 
 <a href="https://ibb.co/LPp52wp"><img src="https://i.ibb.co/n0kC52k/Screenshot-2022-09-26-at-8-59-32-PM.png" alt="Screenshot-2022-09-26-at-8-59-32-PM" border="0"></a>
 
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-Styling with Markdown is supported
-@hariohmtripathi
-Commit changes
-Commit summary
-Create README.md
-Optional extended description
-Add an optional extended description…
- Commit directly to the main branch.
- Create a new branch for this commit and start a pull request. Learn more about pull requests.
- 
+
