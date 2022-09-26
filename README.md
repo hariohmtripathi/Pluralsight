@@ -113,8 +113,9 @@ This project was a result of the collaboration of five team members within four 
 41
 ## Project Screenshots
 42
-<a href="#"><img width="100%" height="auto" src="https://ibb.co/xSwXwsf" height="175px"/></a>
-<a href="#"><img width="100%" height="auto" src="https://ibb.co/LPp52wp" height="175px"/></a>
+<a href="https://ibb.co/xSwXwsf"><img src="https://i.ibb.co/hRrLrMZ/Screenshot-2022-09-26-at-8-58-03-PM.png" alt="Screenshot-2022-09-26-at-8-58-03-PM" border="0"></a>
+
+<a href="https://ibb.co/LPp52wp"><img src="https://i.ibb.co/n0kC52k/Screenshot-2022-09-26-at-8-59-32-PM.png" alt="Screenshot-2022-09-26-at-8-59-32-PM" border="0"></a>
 
 No file chosen
 Attach files by dragging & dropping, selecting or pasting them.
