@@ -1,22 +1,17 @@
 
 # Project Name - Pluralsight
-5
-Clone of Pluralsight (https://https://www.pluralsight.com//)
-6
-​
-7
+
 <a href="#"><img width="15%" height="auto" src="https://www.pluralsight.com/content/dam/ps-nav-assets/pluralsight-company-white-logo.png"/></a>
-8
-​
-9
+
+
+Clone of Pluralsight (https://https://www.pluralsight.com//)
+ <hr>
+
+
 ### Project Holders
-10
-​
-11
+
 Team Member Name:
-12
-​
-13
+
 1.Hari Ohm Tripathi
 
 2.Falgun Bokde
