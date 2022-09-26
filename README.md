@@ -45,4 +45,23 @@ This project was a result of the collaboration of five team members within four 
 
 <a href="https://ibb.co/LPp52wp"><img src="https://i.ibb.co/n0kC52k/Screenshot-2022-09-26-at-8-59-32-PM.png" alt="Screenshot-2022-09-26-at-8-59-32-PM" border="0"></a>
 
+<a href="https://ibb.co/vHQrVTf"><img src="https://i.ibb.co/yXYMdZK/Screenshot-2022-09-26-at-9-46-52-PM.png" alt="Screenshot-2022-09-26-at-9-46-52-PM" border="0"></a>
+
+<a href="https://ibb.co/nPTdM7m"><img src="https://i.ibb.co/wcTGhSg/Screenshot-2022-09-26-at-9-39-08-PM.png" alt="Screenshot-2022-09-26-at-9-39-08-PM" border="0"></a>
+
+
+<a href="https://ibb.co/fvX60RF"><img src="https://i.ibb.co/L50jpwR/Screenshot-2022-09-26-at-9-40-07-PM.png" alt="Screenshot-2022-09-26-at-9-40-07-PM" border="0"></a>
+
+<a href="https://ibb.co/NYcScCy"><img src="https://i.ibb.co/DK0p0WR/Screenshot-2022-09-26-at-9-40-43-PM.png" alt="Screenshot-2022-09-26-at-9-40-43-PM" border="0"></a>
+
+<a href="https://ibb.co/JxYQ27Y"><img src="https://i.ibb.co/DGBpkCB/Screenshot-2022-09-26-at-9-41-25-PM.png" alt="Screenshot-2022-09-26-at-9-41-25-PM" border="0"></a>
+
+<a href="https://ibb.co/1qqxxsV"><img src="https://i.ibb.co/T8855KX/Screenshot-2022-09-26-at-9-42-43-PM.png" alt="Screenshot-2022-09-26-at-9-42-43-PM" border="0"></a>
+
+<a href="https://ibb.co/M8LFpxM"><img src="https://i.ibb.co/hXv3HJD/Screenshot-2022-09-26-at-9-43-33-PM.png" alt="Screenshot-2022-09-26-at-9-43-33-PM" border="0"></a>
+
+<a href="https://ibb.co/yQJnPwB"><img src="https://i.ibb.co/hmvR9P1/Screenshot-2022-09-26-at-9-43-59-PM.png" alt="Screenshot-2022-09-26-at-9-43-59-PM" border="0"></a>
+
+
+
 
