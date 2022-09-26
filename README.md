@@ -112,7 +112,7 @@ This project was a result of the collaboration of five team members within four 
 ​
 41
 ## Project Screenshots
-42
+
 <a href="https://ibb.co/xSwXwsf"><img src="https://i.ibb.co/hRrLrMZ/Screenshot-2022-09-26-at-8-58-03-PM.png" alt="Screenshot-2022-09-26-at-8-58-03-PM" border="0"></a>
 
 <a href="https://ibb.co/LPp52wp"><img src="https://i.ibb.co/n0kC52k/Screenshot-2022-09-26-at-8-59-32-PM.png" alt="Screenshot-2022-09-26-at-8-59-32-PM" border="0"></a>
