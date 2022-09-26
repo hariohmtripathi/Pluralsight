@@ -51,8 +51,6 @@ This project was a result of the collaboration of five team members within four 
 <a href="https://ibb.co/nPTdM7m"><img src="https://i.ibb.co/wcTGhSg/Screenshot-2022-09-26-at-9-39-08-PM.png" alt="Screenshot-2022-09-26-at-9-39-08-PM" border="0"></a>
 
 
-<a href="https://ibb.co/fvX60RF"><img src="https://i.ibb.co/L50jpwR/Screenshot-2022-09-26-at-9-40-07-PM.png" alt="Screenshot-2022-09-26-at-9-40-07-PM" border="0"></a>
-
 <a href="https://ibb.co/NYcScCy"><img src="https://i.ibb.co/DK0p0WR/Screenshot-2022-09-26-at-9-40-43-PM.png" alt="Screenshot-2022-09-26-at-9-40-43-PM" border="0"></a>
 
 <a href="https://ibb.co/JxYQ27Y"><img src="https://i.ibb.co/DGBpkCB/Screenshot-2022-09-26-at-9-41-25-PM.png" alt="Screenshot-2022-09-26-at-9-41-25-PM" border="0"></a>
