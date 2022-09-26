@@ -1,3 +1,4 @@
+Welcome To Our Project👋
 
 # Project Name - Pluralsight
 
@@ -64,4 +65,14 @@ This project was a result of the collaboration of five team members within four 
 
 
 
+## Project
+### Work Distribution:
+* 1.Landing Page by Mohammad Osama
+* 2.Hands on learning and Product page by Hari Ohm Tripathi
+* 3. Payment Section and Footer by Falgun Bokde and Sanjeev Kumar Mahto
+* 4. Ticket System by Sadanand Bhute
 
+
+### Functionalities :
+* Payment System
+*Ticket System
